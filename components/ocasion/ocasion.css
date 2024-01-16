@@ -1,0 +1,44 @@
+.left-oc {
+  background-image: url(./src/img/ocasion.png);
+  background-repeat: no-repeat;
+  height: 445px;
+  width: 646px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.left-oc > img {
+  display: none;
+}
+.right-oc {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  margin-left: 55%;
+  margin-top: 5%;
+}
+
+@media (max-width: 524px) {
+  .right-oc {
+    align-items: center;
+    justify-content: center;
+    margin-top: 0%;
+    margin-left: 0%;
+    padding-bottom: 10%;
+  }
+  .left-oc {
+    align-self: flex-start;
+    border-radius: 8px 8px 0px 0px;
+    background-color: green;
+    width: 352px;
+    height: 163px;
+    top: 0px;
+
+    background-image: none;
+  }
+  .left-oc > img {
+    display: block;
+    min-width: 100%;
+  }
+}

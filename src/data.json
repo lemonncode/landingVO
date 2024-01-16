@@ -1,0 +1,195 @@
+{
+  "shared": {
+    "test": "probando",
+    "link": "$url(Account-Show)$"
+  },
+  "es": {
+    "banner": {
+      "title": "Reserva, financia y reestrena",
+      "text-1": "MG ZS 1.0 Turbo Luxury 82 Kw (11 CV)¹ Automático",
+      "text-2": "desde",
+      "text-3": "275,85 €/mes²",
+      "text-4": "En 96 cuotas TAE 9,93 % TIN 9,5 %"
+    },
+    "vehicles": {
+      "title": "Encuentra tu vehículo ideal, a tu medida:",
+      "renting": {
+        "title": "CaixaRenting Ocasión¹",
+        "text": "Excelente selección procedente <br>del Renting CaixaBank.",
+        "text-button": "Mostrar Coches"
+      },
+      "coche": {
+        "title": "Coche de Ocasión²",
+        "text": "Coches perfectamente <br>  revisados y listos para <br>reestrenar.",
+        "text-button": "Mostrar Coches"
+      },
+      "motos": {
+        "title": "Motos de Ocasión²",
+        "text": "Explora nuestras motos revisadas. Encuentra la ideal para <br>nuevas aventuras. ¡Descubre con nosotros!",
+        "text-button": "Mostrar Motos"
+      }
+    },
+    "benefits": {
+      "title": "Descubre las incomparables ventajas <br> de los vehículos de ocasión",
+      "title-1": "Financia en cómodos plazos",
+      "subtitle-1": "Reserva, reestrena y regálate libertad",
+      "title-2": "Garantía de 12 meses",
+      "subtitle-2": "Mecánica y electrónica, cobertura nacional",
+      "title-3": "Entrega rápida a domicilio",
+      "subtitle-3": "en península y Baleares"
+    },
+    "renting": {
+      "head": "Coches CaixaRenting Ocasión. ¡No dejes que se escape!",
+      "title": "Descubre coches de calidad <br>procedentes del Renting CaixaBank",
+      "text-1": "<b>Busca y encuentra tu vehículo de ensueño</b> entre<br> nuestro amplio catálogo.",
+      "text-2": "<b>Coches seleccionados de un solo propietario.</b> <br>¡Ese vehículo será tuyo!",
+      "text-3": "<b>Con nuestra financiación al 100%, </b> disfruta de la <br>conveniencia de pagar en cómodas cuotas.",
+      "brands": "Nuestras marcas más top de coches"
+    },
+    "ocasion": {
+      "head": "Coches de ocasión ¡Encuentra el tuyo hoy!",
+      "title": "Descubre el nuevo catálogo de coches <br> de ocasión con las ventajas de siempre",
+      "text-1": "<b>Perfectamente mantenidos </b> y revisados",
+      "text-2": "<b>Cambio de nombre incluido </b> para facilitar todos  los <br> trámites administrativos",
+      "text-3": "<b>Financia hasta el 100% </b> del precio del coche"
+    },
+    "motos": {
+      "head": "Motos de ocasión ¡Y comienza tu próxima aventura sobre ruedas!",
+      "title": "Más beneficios para ti al adquirir una <br> moto  de ocasión",
+      "text-1": "<b>Perfectamente mantenida </b> y revisada",
+      "text-2": "<b>Entrega a domicilio </b> en Península y Baleares",
+      "text-3": "<b>Cambio de nombre incluido </b> para facilitar todos los <br> trámites administrativos",
+      "brands": "Nuestras marcas más top de motos"
+    },
+    "legal": {
+      "text-1": "1.La oferta de venta es de Arval Service Lease, S.A.U., con domicilio en la calle Anabel Segura 14, Edificio Cedro. 28108 Alcobendas – Madrid",
+      "text-2": "2.La oferta de venta es de los vendedores a los que Motor Flash Ibérica de Negocios S.L. permite celebrar contratos a través de su sitio web www.motorflash.com <br>CONDICIONES DE FINANCIACIÓN. Financiación mediante un préstamo ofrecida por CaixaBank, S.A.. La concesión está sujeta al análisis de la solvencia del cliente según la política de CaixaBank, S.A."
+    }
+  },
+  "ca": {
+    "banner": {
+      "title": "Reserva, financia y reestrena",
+      "text-1": "MG ZS 1.0 Turbo Luxury 82 Kw (11 CV)¹ Automático",
+      "text-2": "desde",
+      "text-3": "275,85 €/mes²",
+      "text-4": "En 96 cuotas TAE 9,93 % TIN 9,5 %"
+    },
+    "vehicles": {
+      "title": "Encuentra tu vehículo ideal, a tu medida:",
+      "renting": {
+        "title": "CaixaRenting Ocasión¹",
+        "text": "Excelente selección procedente <br>del Renting CaixaBank.",
+        "text-button": "Mostrar Coches"
+      },
+      "coche": {
+        "title": "Coche de Ocasión²",
+        "text": "Coches perfectamente <br>  revisados y listos para <br>reestrenar.",
+        "text-button": "Mostrar Coches"
+      },
+      "motos": {
+        "title": "Motos de Ocasión²",
+        "text": "Explora nuestras motos revisadas. Encuentra la ideal para <br>nuevas aventuras. ¡Descubre con nosotros!",
+        "text-button": "Mostrar Motos"
+      }
+    },
+    "benefits": {
+      "title": "Descubre las incomparables ventajas <br> de los vehículos de ocasión",
+      "title-1": "Financia en cómodos plazos",
+      "subtitle-1": "Reserva, reestrena y regálate libertad",
+      "title-2": "Garantía de 12 meses",
+      "subtitle-2": "Mecánica y electrónica, cobertura nacional",
+      "title-3": "Entrega rápida a domicilio",
+      "subtitle-3": "en península y Baleares"
+    },
+    "renting": {
+      "head": "Coches CaixaRenting Ocasión. ¡No dejes que se escape!",
+      "title": "Descubre coches de calidad <br>procedentes del Renting CaixaBank",
+      "text-1": "<b>Busca y encuentra tu vehículo de ensueño</b> entre<br> nuestro amplio catálogo.",
+      "text-2": "<b>Coches seleccionados de un solo propietario.</b> <br>¡Ese vehículo será tuyo!",
+      "text-3": "<b>Con nuestra financiación al 100%, </b> disfruta de la <br>conveniencia de pagar en cómodas cuotas.",
+      "brands": "Nuestras marcas más top de coches"
+    },
+    "ocasion": {
+      "head": "Coches de ocasión ¡Encuentra el tuyo hoy!",
+      "title": "Descubre el nuevo catálogo de coches <br> de ocasión con las ventajas de siempre",
+      "text-1": "<b>Perfectamente mantenidos </b> y revisados",
+      "text-2": "<b>Cambio de nombre incluido </b> para facilitar todos  los <br> trámites administrativos",
+      "text-3": "<b>Financia hasta el 100% </b> del precio del coche"
+    },
+    "motos": {
+      "head": "Motos de ocasión ¡Y comienza tu próxima aventura sobre ruedas!",
+      "title": "Más beneficios para ti al adquirir una <br> moto  de ocasión",
+      "text-1": "<b>Perfectamente mantenida </b> y revisada",
+      "text-2": "<b>Entrega a domicilio </b> en Península y Baleares",
+      "text-3": "<b>Cambio de nombre incluido </b> para facilitar todos los <br> trámites administrativos",
+      "brands": "Nuestras marcas más top de motos"
+    },
+    "legal": {
+      "text-1": "1.La oferta de venta es de Arval Service Lease, S.A.U., con domicilio en la calle Anabel Segura 14, Edificio Cedro. 28108 Alcobendas – Madrid",
+      "text-2": "2.La oferta de venta es de los vendedores a los que Motor Flash Ibérica de Negocios S.L. permite celebrar contratos a través de su sitio web www.motorflash.com <br>CONDICIONES DE FINANCIACIÓN. Financiación mediante un préstamo ofrecida por CaixaBank, S.A.. La concesión está sujeta al análisis de la solvencia del cliente según la política de CaixaBank, S.A."
+    }
+  },
+  "en": {
+    "banner": {
+      "title": "Reserva, financia y reestrena",
+      "text-1": "MG ZS 1.0 Turbo Luxury 82 Kw (11 CV)¹ Automático",
+      "text-2": "desde",
+      "text-3": "275,85 €/mes²",
+      "text-4": "En 96 cuotas TAE 9,93 % TIN 9,5 %"
+    },
+    "vehicles": {
+      "title": "Encuentra tu vehículo ideal, a tu medida:",
+      "renting": {
+        "title": "CaixaRenting Ocasión¹",
+        "text": "Excelente selección procedente <br>del Renting CaixaBank.",
+        "text-button": "Mostrar Coches"
+      },
+      "coche": {
+        "title": "Coche de Ocasión²",
+        "text": "Coches perfectamente <br>  revisados y listos para <br>reestrenar.",
+        "text-button": "Mostrar Coches"
+      },
+      "motos": {
+        "title": "Motos de Ocasión²",
+        "text": "Explora nuestras motos revisadas. Encuentra la ideal para <br>nuevas aventuras. ¡Descubre con nosotros!",
+        "text-button": "Mostrar Motos"
+      }
+    },
+    "benefits": {
+      "title": "Descubre las incomparables ventajas <br> de los vehículos de ocasión",
+      "title-1": "Financia en cómodos plazos",
+      "subtitle-1": "Reserva, reestrena y regálate libertad",
+      "title-2": "Garantía de 12 meses",
+      "subtitle-2": "Mecánica y electrónica, cobertura nacional",
+      "title-3": "Entrega rápida a domicilio",
+      "subtitle-3": "en península y Baleares"
+    },
+    "renting": {
+      "head": "Coches CaixaRenting Ocasión. ¡No dejes que se escape!",
+      "title": "Descubre coches de calidad <br>procedentes del Renting CaixaBank",
+      "text-1": "<b>Busca y encuentra tu vehículo de ensueño</b> entre<br> nuestro amplio catálogo.",
+      "text-2": "<b>Coches seleccionados de un solo propietario.</b> <br>¡Ese vehículo será tuyo!",
+      "text-3": "<b>Con nuestra financiación al 100%, </b> disfruta de la <br>conveniencia de pagar en cómodas cuotas.",
+      "brands": "Nuestras marcas más top de coches"
+    },
+    "ocasion": {
+      "head": "Coches de ocasión ¡Encuentra el tuyo hoy!",
+      "title": "Descubre el nuevo catálogo de coches <br> de ocasión con las ventajas de siempre",
+      "text-1": "<b>Perfectamente mantenidos </b> y revisados",
+      "text-2": "<b>Cambio de nombre incluido </b> para facilitar todos  los <br> trámites administrativos",
+      "text-3": "<b>Financia hasta el 100% </b> del precio del coche"
+    },
+    "motos": {
+      "head": "Motos de ocasión ¡Y comienza tu próxima aventura sobre ruedas!",
+      "title": "Más beneficios para ti al adquirir una <br> moto  de ocasión",
+      "text-1": "<b>Perfectamente mantenida </b> y revisada",
+      "text-2": "<b>Entrega a domicilio </b> en Península y Baleares",
+      "text-3": "<b>Cambio de nombre incluido </b> para facilitar todos los <br> trámites administrativos",
+      "brands": "Nuestras marcas más top de motos"
+    },
+    "legal": {
+      "text-1": "1.La oferta de venta es de Arval Service Lease, S.A.U., con domicilio en la calle Anabel Segura 14, Edificio Cedro. 28108 Alcobendas – Madrid",
+      "text-2": "2.La oferta de venta es de los vendedores a los que Motor Flash Ibérica de Negocios S.L. permite celebrar contratos a través de su sitio web www.motorflash.com <br>CONDICIONES DE FINANCIACIÓN. Financiación mediante un préstamo ofrecida por CaixaBank, S.A.. La concesión está sujeta al análisis de la solvencia del cliente según la política de CaixaBank, S.A."
+    }
+  }
+}

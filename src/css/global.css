@@ -1,0 +1,50 @@
+main {
+  max-width: 1440px;
+  font-family: "Montserrat";
+  background-color: white;
+  margin: 0 auto;
+}
+main h1, main h2, main h3, main h4, main h5, main h6, main p, main a, main a:hover, main ul, main li {
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-decoration: none;
+  font-weight: 400;
+  margin: 0;
+}
+main b {
+  font-weight: 700;
+}
+main sup {
+  font-size: 60%;
+  line-height: 0;
+  vertical-align: super;
+  position: relative;
+  top: 1px;
+}
+main img {
+  max-width: 100%;
+  display: block;
+}
+main ul {
+  list-style-type: disc;
+}
+main .boxed {
+  padding-left: 56px;
+  padding-right: 56px;
+}
+main .boxed-full {
+  padding: 56px;
+}
+@media (max-width: 1024px) {
+  main {
+    max-width: 542px;
+  }
+  main .boxed {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  main .boxed-full {
+    padding: 16px;
+  }
+}
