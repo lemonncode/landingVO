@@ -1,13 +1,6 @@
-<section id="hero">
-    <class id="header_content">
+<section id="slider" class="L" <?= reveal('L2R') ?>>
+    <?php comp('slider') ?> </section>
 
-        <div class="slider">
-            SLIDER
-        </div>
-    </class>
-
-
-</section>
 
 
 
@@ -16,11 +9,11 @@
     <div>
 
 
-        <h2> <?= $data['title'] ?></h2>
+        <h2 <?= reveal('R2L', ['delay' => 0.25]) ?>> <?= $data['title'] ?></h2>
 
     </div>
     <div class="container-grid">
-        <div>
+        <div <?= reveal('card-up', ['delay' => 0.09]) ?>>
             <?php $data = data('vehicles') ?>
             <div class="info">
                 <div>
@@ -33,7 +26,7 @@
                 </div>
                 <div>
 
-                    <?php comp('cta') ?>
+                    <?php comp('cta-r') ?>
                 </div>
 
             </div>
@@ -42,7 +35,7 @@
                 <img class="img-car" src="<?= img("coche-rent.png") ?>" alt="coche-gris">
             </div>
         </div>
-        <div>
+        <div <?= reveal('card-up', ['delay' => 0.16]) ?>>
             <div class="info">
                 <div>
                     <h3><?= $data['coche']['title'] ?></h3>
@@ -51,10 +44,13 @@
                     <h4>
                         <?= $data['coche']['text'] ?>
                     </h4>
+                    <h4>
+                        <?= $data['coche']['text-m'] ?>
+                    </h4>
                 </div>
                 <div class="cta">
 
-                    <?php comp('cta') ?>
+                    <?php comp('cta-o') ?>
                 </div>
 
             </div>
@@ -63,7 +59,7 @@
                 <img class="img-car" src="<?= img("coche-ocasion.png") ?>" alt="coche-negro">
             </div>
         </div>
-        <div>
+        <div <?= reveal('card-up', ['delay' => 0.2]) ?>>
             <div class="info">
                 <div>
                     <h3><?= $data['motos']['title'] ?></h3>
@@ -72,10 +68,15 @@
                     <h4>
                         <?= $data['motos']['text'] ?>
                     </h4>
+
+                    <h4>
+                        <?= $data['motos']['text-m'] ?>
+                    </h4>
+
                 </div>
                 <div>
 
-                    <?php comp('cta') ?>
+                    <?php comp('cta-m') ?>
                 </div>
 
             </div>
@@ -97,12 +98,13 @@
 </section>
 <section id="benefits">
     <div class="container">
-        <div>
+        <div <?= reveal('D2U', ['delay' => 0.25]) ?>>
 
             <?php $data = data('benefits') ?>
 
 
             <h2 class="head-title"><?= $data['title'] ?></h2>
+            <h2 class="head-title"><?= $data['title-m'] ?></h2>
         </div>
 
 
@@ -114,7 +116,7 @@
 
     </div>
 </section>
-<section id="renting">
+<section id="renting" <?= reveal('L2R', ['delay' => 0.50]) ?>>
 
     <div>
 
@@ -123,9 +125,10 @@
 
 
     </div>
+    <div class="sep"></div>
 
 </section>
-<section id="ocasion">
+<section id="ocasion" <?= reveal('R2L', ['delay' => 0.55]) ?>>
     <div>
 
         <?php comp('ocasion') ?>
@@ -135,7 +138,7 @@
     </div>
 
 </section>
-<section id="motos">
+<section id="motos" <?= reveal('L2R', ['delay' => 0.60]) ?>>
     <div>
 
         <?php comp('motos') ?>

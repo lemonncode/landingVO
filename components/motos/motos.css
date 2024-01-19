@@ -1,32 +1,34 @@
-.mo {
+#maincontent .mo {
   background-color: #f7f8fa;
   padding-top: 5%;
 }
-
-.bm {
+#maincontent .bm {
   background-color: #ffffff;
 }
-.left-m {
+#maincontent .left-m {
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
-  margin-left: 5%;
-  margin-top: 5%;
+  margin: 45px;
 }
-
-.right-m {
-  background-image: url(./src/img/motos.png);
+#maincontent .right-m {
+  background-image: gray;
   background-repeat: no-repeat;
   height: 445px;
   width: 646px;
   position: absolute;
   right: 0px;
 }
-
-.w {
+#maincontent .right-m > img:first-of-type {
+  display: block;
+  min-width: 100%;
+}
+#maincontent .right-m > img:last-of-type {
+  display: none;
+}
+#maincontent .w {
   background-color: #ffffff;
 }
-
 @keyframes slide {
   from {
     transform: translateX(0);
@@ -35,46 +37,56 @@
     transform: translateX(-100%);
   }
 }
-
-.m {
+#maincontent .m {
   background-color: #f7f8fa;
   padding-bottom: 3%;
 }
-
-.m:before {
+#maincontent .m:before {
   left: 0;
-
   background: linear-gradient(to left, rgba(255, 255, 255, 0), #f7f8fa);
 }
-.m:after {
+#maincontent .m:after {
   right: 0;
   background: linear-gradient(to right, rgba(255, 255, 255, 0), #f7f8fa);
 }
-
-.w {
+#maincontent .w {
   background-color: #ffffff;
 }
-
-@media (max-width: 524px) {
-  .left-m {
+@media (max-width: 1024px) {
+  #maincontent .left-m {
     align-items: center;
     justify-content: center;
     margin-top: 0%;
     margin-left: 0%;
-    padding-bottom: 10%;
   }
-  .right-m {
+  #maincontent .right-m {
     align-self: flex-start;
     border-radius: 8px 8px 0px 0px;
-    background-color: green;
     width: 352px;
     height: 163px;
     top: 0px;
-
     background-image: none;
   }
-  .right-m > img {
+  #maincontent .right-m > img:first-of-type {
+    display: none;
+  }
+  #maincontent .right-m > img:last-of-type {
     display: block;
     min-width: 100%;
+  }
+  #maincontent #motos {
+    margin-top: 40px;
+  }
+  #maincontent #motos > div > .cont > div:first-of-type > h2 {
+    padding: 8% 10%;
+  }
+  #maincontent .w {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  #maincontent .logos-slide img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    margin: auto;
   }
 }

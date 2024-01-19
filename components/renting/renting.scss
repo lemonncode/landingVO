@@ -1,0 +1,239 @@
+#maincontent {
+  .cont {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    align-items: center;
+  }
+
+  .cont > div:first-of-type {
+    align-self: center;
+  }
+  .cont > div:first-of-type > h2 {
+    font-size: 2.2rem;
+    font-weight: 650;
+  }
+
+  .banner {
+    height: 445px;
+    width: 1312px;
+    display: flex;
+    flex-direction: row;
+    background-color: #f7f8fa;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+  }
+  .left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    margin: 55px;
+   
+  }
+
+  .right {
+    background-image: gray;
+    background-repeat: no-repeat;
+    height: 445px;
+    width: 646px;
+    position: absolute;
+    right: 0px;
+  }
+  .right > img:first-of-type {
+    display: block;
+     min-width: 100%;
+  }
+  .right > img:last-of-type {
+    display: none;
+  }
+
+  .line {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  .title:first-of-type {
+    display: block;
+
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  .title:last-of-type {
+    display: none;
+  }
+
+  .title-c {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .line > img {
+    align-self: flex-start;
+  }
+
+  .line > p {
+    font-size: 1.1rem;
+  }
+
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  .logos {
+    overflow: hidden;
+    padding: 30px 0;
+
+    white-space: nowrap;
+    position: relative;
+    display: flex;
+    gap: 10px;
+  }
+  .logos:before,
+  .logos:after {
+    position: absolute;
+    top: 0;
+    width: 120px;
+    height: 100%;
+
+    content: "";
+    z-index: 2;
+  }
+  .logos:before {
+    left: 0;
+    background: linear-gradient(
+      to left,
+      rgba(255, 255, 255, 0),
+      rgb(255, 255, 255)
+    );
+  }
+  .logos:after {
+    right: 0;
+    background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0),
+      rgb(255, 255, 255)
+    );
+  }
+
+  .logos-slide {
+    display: flex;
+    gap: 10px;
+    width: 300%;
+
+    animation: 35s slide infinite linear;
+  }
+  .card-logo {
+    height: 153px;
+    width: 191px;
+    background-color: #f7f8fa;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+  }
+
+  .logos-slide img {
+    margin: 1.5em auto;
+    object-fit: contain;
+  }
+
+  @media (max-width: 1024px) {
+    .cont {
+      margin-top: 0px;
+    }
+    .cont > div:first-of-type > h2 {
+      padding: 15% 5% 5%;
+      font-size: 1.22rem;
+      text-align: center;
+    }
+  
+    .banner {
+      flex-direction: column;
+      height: 750px;
+      width: 352px;
+      align-items: center;
+      justify-content: flex-end;
+
+      position: relative;
+      margin: auto;
+      padding: 20% 6% 30px 6%;
+    }
+
+    .left {
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+      margin-left: 0%;
+    }
+
+    .right {
+      align-self: flex-start;
+      border-radius: 8px 8px 0px 0px;
+
+      width: 352px;
+      height: 163px;
+      top: 0px;
+
+      background-image: none;
+    }
+    .right > img:last-of-type {
+      display: block;
+      min-width: 100%;
+    }
+    .right > img:first-of-type {
+      display: none;
+    }
+
+    .line > .title:first-of-type {
+      display: none;
+    }
+    .line > .title:last-of-type {
+      text-align: center;
+      font-size: 1.1rem;
+      font-weight: 600;
+      padding: 5% 0px;
+      display: block;
+    }
+
+    .title-c {
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: 600;
+      padding: 5% 18%;
+    }
+
+    .line > p {
+      font-size: 1.1rem;
+      font-weight: 400;
+    }
+    .card-logo {
+      height: 98px;
+      width: 122.42;
+      display: flex;
+    }
+    .logos {
+      padding: 0px 0;
+    }
+
+    .logos-slide img {
+      height: 45px;
+
+      margin: auto;
+    }
+    .logos:before,
+    .logos:after {
+      position: absolute;
+      top: 0;
+      width: 60px;
+      height: 100%;
+
+      content: "";
+      z-index: 2;
+    }
+  }
+}

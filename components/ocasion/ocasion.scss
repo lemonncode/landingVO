@@ -1,0 +1,64 @@
+#maincontent {
+  .left-oc {
+    background: gray;
+    background-repeat: no-repeat;
+    height: 445px;
+    width: 646px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+     border-radius: 10px;
+  }
+
+
+  .left-oc > img:first-of-type {
+    display: block;
+    min-width: 100%;
+    border-radius: 10px;
+  }
+  .left-oc > img:last-of-type {
+    display: none;
+  }
+  .right-oc {
+    position: absolute;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    margin:55px
+  }
+
+  @media (max-width: 1024px) {
+    #ocasion > div > .cont > div:first-of-type > h2 {
+      padding: 8% 10%;
+    }
+    #ocasion > div > .cont > .banner,
+    #motos > div > .cont > .banner {
+      height: 750px;
+    }
+
+    .right-oc {
+      align-items: center;
+      justify-content: center;
+      margin-top: 0%;
+      margin-left: 0%;
+    }
+    .left-oc {
+      align-self: flex-start;
+      border-radius: 8px 8px 0px 0px;
+
+      width: 352px;
+      height: 163px;
+      top: 0px;
+
+      background-image: none;
+    }
+    .left-oc > img:first-of-type {
+      display: none;
+    }
+    .left-oc > img:last-of-type {
+      display: block;
+      min-width: 100%;
+    }
+  }
+}

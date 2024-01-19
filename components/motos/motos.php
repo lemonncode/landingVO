@@ -9,6 +9,7 @@
 
 
                 <h2 class="title"><?= $data['title'] ?></h2>
+                <h2 class="title"><?= $data['title-m'] ?></h2>
             </div>
             <div class="line">
                 <img class="ic" src="<?= img("_icono.svg") ?>" alt>
@@ -27,10 +28,15 @@
 
                 <p><?= $data['text-3'] ?></p>
             </div>
+            <div>
+
+                <?php comp('cta-m') ?>
+            </div>
 
         </div>
         <div class="right-m">
-            <img src="<?= img("ocasion-m.png") ?>" alt>
+            <img src="<?= img("motos.png") ?>" alt>
+            <img src="<?= img("motos-m.png") ?>" alt>
         </div>
 
     </div>
@@ -42,86 +48,70 @@
     <div class="logos-slide">
         <div class="card-logo w">
 
-            <img src="./src/img/logos/2.png">
+            <img src="<?= img("m-1.png") ?>">
         </div>
         <div class="card-logo w">
 
-            <img src="./src/img/logos/2.png">
+            <img src="<?= img("m-2.png") ?>">
         </div>
         <div class="card-logo w">
 
-            <img src="./src/img/logos/2.png">
+            <img src="<?= img("m-3.png") ?>">
         </div>
         <div class="card-logo w">
 
-            <img src="./src/img/logos/2.png">
+            <img src="<?= img("m-4.png") ?>">
         </div>
         <div class="card-logo w">
 
-            <img src="./src/img/logos/2.png">
+            <img src="<?= img("m-5.png") ?>">
         </div>
         <div class="card-logo w">
 
-            <img src="./src/img/logos/2.png">
+            <img src="<?= img("m-6.png") ?>">
         </div>
         <div class="card-logo w">
 
-            <img src="./src/img/logos/2.png">
+            <img src="<?= img("m-7.png") ?>">
         </div>
         <div class="card-logo w">
 
-            <img src="./src/img/logos/2.png">
-        </div>
-        <div class="card-logo w">
-
-            <img src="./src/img/logos/2.png">
-        </div>
-        <div class="card-logo w">
-
-            <img src="./src/img/logos/2.png">
+            <img src="<?= img("m-8.png") ?>">
         </div>
 
     </div>
     <div class="logos-slide">
         <div class="card-logo w">
 
-            <img src="./src/img/logos/2.png">
+            <img src="<?= img("m-1.png") ?>">
         </div>
         <div class="card-logo w">
 
-            <img src="./src/img/logos/2.png">
+            <img src="<?= img("m-2.png") ?>">
         </div>
         <div class="card-logo w">
 
-            <img src="./src/img/logos/2.png">
+            <img src="<?= img("m-3.png") ?>">
         </div>
         <div class="card-logo w">
 
-            <img src="./src/img/logos/2.png">
+            <img src="<?= img("m-4.png") ?>">
         </div>
         <div class="card-logo w">
 
-            <img src="./src/img/logos/2.png">
+            <img src="<?= img("m-5.png") ?>">
         </div>
         <div class="card-logo w">
 
-            <img src="./src/img/logos/2.png">
+            <img src="<?= img("m-6.png") ?>">
         </div>
         <div class="card-logo w">
 
-            <img src="./src/img/logos/2.png">
+            <img src="<?= img("m-7.png") ?>">
         </div>
         <div class="card-logo w">
 
-            <img src="./src/img/logos/2.png">
-        </div>
-        <div class="card-logo w">
-
-            <img src="./src/img/logos/2.png">
-        </div>
-        <div class="card-logo w">
-
-            <img src="./src/img/logos/2.png">
+            <img src="<?= img("m-8.png") ?>">
         </div>
 
     </div>

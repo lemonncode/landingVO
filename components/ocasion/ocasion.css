@@ -1,43 +1,55 @@
-.left-oc {
-  background-image: url(./src/img/ocasion.png);
+#maincontent .left-oc {
+  background: gray;
   background-repeat: no-repeat;
   height: 445px;
   width: 646px;
   position: absolute;
   left: 0px;
   top: 0px;
+  border-radius: 10px;
 }
-
-.left-oc > img {
+#maincontent .left-oc > img:first-of-type {
+  display: block;
+  min-width: 100%;
+  border-radius: 10px;
+}
+#maincontent .left-oc > img:last-of-type {
   display: none;
 }
-.right-oc {
+#maincontent .right-oc {
+  position: absolute;
+  left: 50%;
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
-  margin-left: 55%;
-  margin-top: 5%;
+  margin: 55px;
 }
-
-@media (max-width: 524px) {
-  .right-oc {
+@media (max-width: 1024px) {
+  #maincontent #ocasion > div > .cont > div:first-of-type > h2 {
+    padding: 8% 10%;
+  }
+  #maincontent #ocasion > div > .cont > .banner,
+  #maincontent #motos > div > .cont > .banner {
+    height: 750px;
+  }
+  #maincontent .right-oc {
     align-items: center;
     justify-content: center;
     margin-top: 0%;
     margin-left: 0%;
-    padding-bottom: 10%;
   }
-  .left-oc {
+  #maincontent .left-oc {
     align-self: flex-start;
     border-radius: 8px 8px 0px 0px;
-    background-color: green;
     width: 352px;
     height: 163px;
     top: 0px;
-
     background-image: none;
   }
-  .left-oc > img {
+  #maincontent .left-oc > img:first-of-type {
+    display: none;
+  }
+  #maincontent .left-oc > img:last-of-type {
     display: block;
     min-width: 100%;
   }

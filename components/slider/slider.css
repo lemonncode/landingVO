@@ -1,0 +1,119 @@
+#maincontent .slider {
+  margin-top: 200px;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  background-color: F4F4F4;
+  border-radius: 10px;
+  position: relative;
+  height: 396px;
+  position: relative;
+}
+#maincontent .b-back {
+  border-radius: 10px;
+}
+#maincontent .side {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 45px 50px 45px 75px;
+  white-space: nowrap;
+  color: white;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+}
+#maincontent .side > h2:first-of-type {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+#maincontent .side > h2:last-of-type {
+  display: none;
+}
+#maincontent .side > .info-text {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+#maincontent .side > div > p {
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+#maincontent .side > div > p:last-of-type {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-top: 5px;
+}
+#maincontent .side > div > p > span {
+  margin: 10px 10px;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+#maincontent .blue {
+  height: 396px;
+}
+#maincontent .gray {
+  position: absolute;
+  right: 0px;
+}
+#maincontent li {
+  display: flex;
+  align-items: center;
+}
+#maincontent li > ul {
+  padding: 0px 20px;
+}
+@media (max-width: 1024px) {
+  #maincontent .slider {
+    flex-direction: column;
+    height: 240px;
+    border-radius: 0px;
+    margin-top: 0px;
+    background-color: #133599;
+  }
+  #maincontent .blue {
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #maincontent .b-back {
+    display: none;
+  }
+  #maincontent .gray {
+    bottom: -160px;
+    right: -50px;
+    width: 140%;
+  }
+  #maincontent .side {
+    align-items: center;
+    gap: 7px;
+    white-space: nowrap;
+    margin: 2.8% 2.5%;
+  }
+  #maincontent .side > h2:first-of-type {
+    display: none;
+  }
+  #maincontent .side > h2:last-of-type {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  #maincontent .side > div > p {
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 300;
+    margin-bottom: 5px;
+  }
+  #maincontent .side > div > p:last-of-type {
+    font-size: 0.83em;
+    font-weight: 600;
+    margin-top: 5px;
+  }
+  #maincontent .side > div > p > span {
+    margin: 5px 5px;
+    font-size: 1.4em;
+    font-weight: 700;
+  }
+}

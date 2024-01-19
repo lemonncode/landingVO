@@ -1,38 +1,41 @@
-/*slider*/
-main {
+@charset "UTF-8";
+#maincontent {
+  /*slider*/
+  /*section show vehicles*/
+  /*section benefits*/
+  /*legal*/
+  /* responsive 376  */
+}
+#maincontent main {
   overflow-x: hidden;
 }
-
-.slider {
-  background-color: #133599;
-  height: 396px;
-  width: 1312px;
-  margin: auto;
+#maincontent #slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  padding-top: 20px;
 }
-
-/*section show vehicles*/
-#show_vehicles > div:first-of-type {
-  margin-top: 100px;
+#maincontent #show_vehicles > div:first-of-type {
+  margin-top: 40px;
   height: 100px;
   display: flex;
 }
-
-#show_vehicles > div:first-of-type > h2 {
+#maincontent #show_vehicles > div:first-of-type > h2 {
   margin: auto;
   font-size: 2.15rem;
   font-weight: 700;
 }
-
-.container-grid {
+#maincontent .container-grid {
   display: grid;
   margin-top: 20px;
   row-gap: 80px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  column-gap: 16px;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
 }
-
-.container-grid > div {
+#maincontent .container-grid > div {
   background-color: #f0f1f4;
   height: 283px;
   width: 646px;
@@ -41,172 +44,193 @@ main {
   border-radius: 10px;
   position: relative;
 }
-
-.container-grid > div:first-of-type {
+#maincontent .container-grid > div:nth-of-type(2) > .info > div:nth-of-type(2) > h4:last-of-type {
+  display: none;
+}
+#maincontent .container-grid > div:nth-of-type(3) > .info > div:nth-of-type(2) > h4:last-of-type {
+  display: none;
+}
+#maincontent .container-grid > div:first-of-type {
   justify-self: end;
 }
-.container-grid > div::nth-of-type(2) {
+#maincontent .container-grid > div::nth-of-type(2) {
   justify-self: start;
 }
-
-.container-grid > div:last-of-type {
+#maincontent .container-grid > div:last-of-type {
   height: 260px;
   width: 1313px;
   grid-column: span 2;
   margin: auto;
 }
-
-.info {
+#maincontent .info {
   display: flex;
   flex-direction: column;
   gap: 24px;
   margin-top: 40px;
   margin-left: 40px;
 }
-
-.info > div > h3 {
+#maincontent .info > div > h3 {
   font-size: 1.9rem;
   font-weight: 600;
 }
-.info > div > h4 {
+#maincontent .info > div > h4 {
   font-size: 1.22rem;
 }
-.info > div:last-of-type {
+#maincontent .info > div:last-of-type {
   position: absolute;
   bottom: 30px;
 }
-
-.pict {
+#maincontent .pict {
   position: absolute;
   bottom: -60px;
   right: -30px;
 }
-.pict-b {
+#maincontent .pict-b {
   position: absolute;
   bottom: -60px;
   right: 20px;
 }
-
-.pict-1 {
+#maincontent .pict-1 {
   position: absolute;
   bottom: -60px;
   right: 350px;
 }
-.pict-2 {
+#maincontent .pict-2 {
   position: absolute;
   bottom: -60px;
   right: 20px;
 }
-
-/*section benefits*/
-
-#benefits > .container {
+#maincontent #benefits > .container {
   display: flex;
   flex-direction: column;
   height: 511px;
   margin-top: 100px;
-  /* background-color: #f4fffb; */
-  background-color: aquamarine;
+  background-color: #f4fffb;
   row-gap: 50px;
   padding-top: 70px;
   padding-bottom: 70px;
 }
-
-.head-title {
+#maincontent .head-title:first-of-type {
   font-size: 1.9rem;
   font-weight: 650;
   text-align: center;
 }
-/*legal*/
-
-.legal {
+#maincontent .head-title:last-of-type {
+  display: none;
+}
+#maincontent .legal {
   padding: 5%;
 }
-
-/* responsive 376  */
-
-@media (max-width: 524px) {
+@media (max-width: 1024px) {
   #maincontent {
+    /* "Descubre las incomparables ventajas <br> de los vehículos de ocasión" */
+  }
+  #maincontent #maincontent {
     display: flex;
     flex-direction: column;
   }
-  #show_vehicles > div:first-of-type {
+  #maincontent #slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding-top: 10px;
+    height: 400px;
+  }
+  #maincontent #show_vehicles > div:first-of-type {
     margin-top: 5%;
   }
-  #show_vehicles > div:first-of-type > h2 {
+  #maincontent #show_vehicles > div:first-of-type > h2 {
     margin: auto;
     font-size: 1.3rem;
     font-weight: 600;
     text-align: center;
     padding: 0px 60px;
   }
-
-  .container-grid {
+  #maincontent .container-grid {
     display: flex;
     flex-direction: column;
     align-items: center;
     row-gap: 40px;
+    margin-top: 1px;
   }
-  .container-grid > div {
+  #maincontent .container-grid > div {
     height: 154.29px;
     width: 352.19px;
   }
-
-  /* corregir  */
-  .container-grid > div:nth-of-type(2) > .info > div:nth-of-type(2) > h4 {
-    background-color: aquamarine;
+  #maincontent .container-grid > div:nth-of-type(2) > .info > div:nth-of-type(2) > h4:first-of-type,
+  #maincontent .container-grid > div:nth-of-type(3) > .info > div:nth-of-type(2) > h4:first-of-type {
+    display: none;
   }
-  .container-grid > div:last-of-type {
+  #maincontent .container-grid > div:nth-of-type(2) > .info > div:nth-of-type(2) > h4:last-of-type,
+  #maincontent .container-grid > div:nth-of-type(3) > .info > div:nth-of-type(2) > h4:last-of-type {
+    line-height: 1.3;
+    display: block;
+  }
+  #maincontent .container-grid > div:last-of-type {
     height: 176px;
     width: 352.19px;
   }
-
-  .pict,
-  .pict-b,
-  .pict-2 {
-    height: 92px;
-    width: 191px;
+  #maincontent .pict {
+    width: 200px;
+    bottom: -25px;
+    right: -10px;
+  }
+  #maincontent .pict-b {
+    width: 165px;
     bottom: -20px;
     right: 10px;
   }
-
-  .pict-2 {
-    bottom: 20px;
+  #maincontent .pict-2 {
+    width: 160px;
+    bottom: -20px;
+    right: 10px;
   }
-
-  .pict-1 {
+  #maincontent .pict-1 {
     display: none;
   }
-
-  .info {
+  #maincontent .info {
     display: flex;
     flex-direction: column;
     gap: 12px;
     margin-top: 5%;
     margin-left: 5%;
   }
-
-  .info > div > h3 {
-    font-size: 1rem;
+  #maincontent .info > div > h3 {
+    font-size: 1.03rem;
     font-weight: 600;
   }
-  .info > div > h4 {
+  #maincontent .info > div > h4 {
     font-size: 0.8rem;
   }
-
-  .info > div:last-of-type {
+  #maincontent .info > div:last-of-type {
     position: absolute;
     bottom: 12px;
   }
-
-  #benefits > .container {
+  #maincontent #benefits > .container {
     height: 785.36px;
     row-gap: 0px;
-    padding: 25px 10px;
+    padding: 10% 10px;
+    margin-top: 50px;
   }
-  /* "Descubre las incomparables ventajas <br> de los vehículos de ocasión" */
-  .head-title {
+  #maincontent .head-title:first-of-type {
+    display: none;
+  }
+  #maincontent .head-title:last-of-type {
+    display: block;
     font-size: 1.3rem;
     font-weight: 650;
+    text-align: center;
+  }
+  #maincontent .legal {
+    font-size: 0.5rem;
+    padding: 5%;
+  }
+  #maincontent .sep {
+    height: 2px;
+    width: 94%;
+    margin: auto;
+    margin-top: 5%;
+    background-color: #e9e9e9;
   }
 }

@@ -1,15 +1,20 @@
 {
   "shared": {
-    "test": "probando",
-    "link": "$url(Account-Show)$"
+
+    "link": "$url(Account-Show)$",
+    "link-r": "https://www.caixarentingautocasion.com/?loce=sh-part-Veh%C3%ADculos%20de%20ocasi%C3%B3n-VehiculosOcasion--destacado-NA-CaixarentingOcasionSup1Sup-NA",
+    "link-o": "https://www.cochesymotosocasion.com/?loce=sh-part-Veh%C3%ADculos%20de%20ocasi%C3%B3n-VehiculosOcasion--destacado-NA-CochesYMotosOcasionSup2Sup-NA",
+    "link-m": "https://www.cochesymotosocasion.com/motos-ocasion/"
   },
   "es": {
     "banner": {
-      "title": "Reserva, financia y reestrena",
+      "title": "Reserva, financia <br>y reestrena",
+      "title-m": "Reserva, financia y reestrena",
       "text-1": "MG ZS 1.0 Turbo Luxury 82 Kw (11 CV)¹ Automático",
       "text-2": "desde",
       "text-3": "275,85 €/mes²",
-      "text-4": "En 96 cuotas TAE 9,93 % TIN 9,5 %"
+      "text-4": "En 96 cuotas <u>TAE 9,93 % </u> TIN 9,5 %",
+      "text-button": "LO QUIERO"
     },
     "vehicles": {
       "title": "Encuentra tu vehículo ideal, a tu medida:",
@@ -21,16 +26,19 @@
       "coche": {
         "title": "Coche de Ocasión²",
         "text": "Coches perfectamente <br>  revisados y listos para <br>reestrenar.",
+        "text-m": "Coches perfectamente revisados <br> y listos para reestrenar.",
         "text-button": "Mostrar Coches"
       },
       "motos": {
         "title": "Motos de Ocasión²",
         "text": "Explora nuestras motos revisadas. Encuentra la ideal para <br>nuevas aventuras. ¡Descubre con nosotros!",
+        "text-m": "Explora nuestras motos <br> revisadas. Encuentra la ideal <br>para nuevas aventuras. <br>¡Descubre con nosotros!",
         "text-button": "Mostrar Motos"
       }
     },
     "benefits": {
       "title": "Descubre las incomparables ventajas <br> de los vehículos de ocasión",
+      "title-m": "Descubre las incomparables <br> ventajas de los vehículos <br> de ocasión",
       "title-1": "Financia en cómodos plazos",
       "subtitle-1": "Reserva, reestrena y regálate libertad",
       "title-2": "Garantía de 12 meses",
@@ -41,6 +49,7 @@
     "renting": {
       "head": "Coches CaixaRenting Ocasión. ¡No dejes que se escape!",
       "title": "Descubre coches de calidad <br>procedentes del Renting CaixaBank",
+      "title-m": "Descubre coches de calidad <br>procedentes del Renting <br> CaixaBank",
       "text-1": "<b>Busca y encuentra tu vehículo de ensueño</b> entre<br> nuestro amplio catálogo.",
       "text-2": "<b>Coches seleccionados de un solo propietario.</b> <br>¡Ese vehículo será tuyo!",
       "text-3": "<b>Con nuestra financiación al 100%, </b> disfruta de la <br>conveniencia de pagar en cómodas cuotas.",
@@ -49,6 +58,7 @@
     "ocasion": {
       "head": "Coches de ocasión ¡Encuentra el tuyo hoy!",
       "title": "Descubre el nuevo catálogo de coches <br> de ocasión con las ventajas de siempre",
+      "title-m": "Descubre el nuevo catálogo <br> de coches de ocasión con las <br>ventajas de siempre",
       "text-1": "<b>Perfectamente mantenidos </b> y revisados",
       "text-2": "<b>Cambio de nombre incluido </b> para facilitar todos  los <br> trámites administrativos",
       "text-3": "<b>Financia hasta el 100% </b> del precio del coche"
@@ -56,6 +66,7 @@
     "motos": {
       "head": "Motos de ocasión ¡Y comienza tu próxima aventura sobre ruedas!",
       "title": "Más beneficios para ti al adquirir una <br> moto  de ocasión",
+      "title-m": "Más beneficios para ti al adquirir  <br> una moto  de ocasión",
       "text-1": "<b>Perfectamente mantenida </b> y revisada",
       "text-2": "<b>Entrega a domicilio </b> en Península y Baleares",
       "text-3": "<b>Cambio de nombre incluido </b> para facilitar todos los <br> trámites administrativos",
@@ -68,128 +79,144 @@
   },
   "ca": {
     "banner": {
-      "title": "Reserva, financia y reestrena",
-      "text-1": "MG ZS 1.0 Turbo Luxury 82 Kw (11 CV)¹ Automático",
-      "text-2": "desde",
+      "title": "Reserva’l, finança’l<br> i reestrena’l",
+      "title-m": "Reserva’l, finança’l i reestrena’l",
+      "text-1": "MG ZS 1.0 Turbo Luxury 82 kW (11 CV) 1 automàtic",
+      "text-2": "des de",
       "text-3": "275,85 €/mes²",
-      "text-4": "En 96 cuotas TAE 9,93 % TIN 9,5 %"
+      "text-4": "En 96 quotes <u>TAE 9,93 % </u>TIN 9,5 %",
+      "text-button": "EL VULL!"
     },
     "vehicles": {
-      "title": "Encuentra tu vehículo ideal, a tu medida:",
+      "title": "Troba el vehicle ideal per a tu:",
       "renting": {
-        "title": "CaixaRenting Ocasión¹",
-        "text": "Excelente selección procedente <br>del Renting CaixaBank.",
-        "text-button": "Mostrar Coches"
+        "title": "CaixaRenting d’ocasió¹",
+        "text": "Excel·lent selecció procedent <br> del rènting de CaixaBank.",
+        "text-button": "MOSTRAR COTXES"
       },
       "coche": {
-        "title": "Coche de Ocasión²",
-        "text": "Coches perfectamente <br>  revisados y listos para <br>reestrenar.",
-        "text-button": "Mostrar Coches"
+        "title": "Cotxe d’ocasió²",
+        "text": "Cotxes perfectament <br>revisats i a punt perquè <br>els reestrenis..",
+        "text-m": "Cotxes perfectament <br>revisats i a punt perquè <br>els reestrenis..",
+        "text-button": "MOSTRAR COTXES"
       },
       "motos": {
-        "title": "Motos de Ocasión²",
-        "text": "Explora nuestras motos revisadas. Encuentra la ideal para <br>nuevas aventuras. ¡Descubre con nosotros!",
-        "text-button": "Mostrar Motos"
+        "title": "Motos d’ocasió²",
+        "text": "Explora les nostres motos revisades. Troba la moto ideal per <br>a noves aventures. Descobreix-les amb nosaltres!",
+        "text-m": "Explora les nostres motos <br>revisades. Troba la moto ideal <br> per a noves aventures. <br>Descobreix-les amb nosaltres!",
+        "text-button": "MOSTRAR COTXES"
       }
     },
     "benefits": {
-      "title": "Descubre las incomparables ventajas <br> de los vehículos de ocasión",
-      "title-1": "Financia en cómodos plazos",
-      "subtitle-1": "Reserva, reestrena y regálate libertad",
-      "title-2": "Garantía de 12 meses",
-      "subtitle-2": "Mecánica y electrónica, cobertura nacional",
-      "title-3": "Entrega rápida a domicilio",
-      "subtitle-3": "en península y Baleares"
+      "title": "Descobreix els avantatges incomparables <br> dels vehicles d’ocasió.",
+      "title-m": "Descobreix els avantatges <br>incomparables  dels vehicles <br>d’ocasió.",
+      "title-1": "Finançament en còmodes terminis",
+      "subtitle-1": "Reserva’l, reestrena’l i regala’t llibertat",
+      "title-2": "Garantia de 12 mesos",
+      "subtitle-2": "Mecànica i electrònica, amb cobertura nacional",
+      "title-3": "Lliurament ràpid a domicili",
+      "subtitle-3": "a la Península i les Balears"
     },
     "renting": {
-      "head": "Coches CaixaRenting Ocasión. ¡No dejes que se escape!",
-      "title": "Descubre coches de calidad <br>procedentes del Renting CaixaBank",
-      "text-1": "<b>Busca y encuentra tu vehículo de ensueño</b> entre<br> nuestro amplio catálogo.",
-      "text-2": "<b>Coches seleccionados de un solo propietario.</b> <br>¡Ese vehículo será tuyo!",
-      "text-3": "<b>Con nuestra financiación al 100%, </b> disfruta de la <br>conveniencia de pagar en cómodas cuotas.",
-      "brands": "Nuestras marcas más top de coches"
+      "head": "Cotxes CaixaRenting d’ocasió. No deixis que se t’escapin!",
+      "title": "Descobreix cotxes de qualitat <br>procedents del rènting de CaixaBank.",
+      "title-m": "Descobreix cotxes de qualitat <br>procedents del rènting de <br>CaixaBank.",
+      "text-1": "<b>Busca i troba el vehicle que somiaves</b> entre<br> el nostre ampli catàleg.",
+      "text-2": "<b>Cotxes seleccionats d’un sol propietari.</b> <br>Aquest vehicle serà teu!",
+      "text-3": "<b>Amb el nostre finançament del 100 %, </b> beneficia’t de la <br>cconveniència de pagar en còmodes quotes.",
+      "brands": "Les nostres marques més top de cotxes"
     },
     "ocasion": {
-      "head": "Coches de ocasión ¡Encuentra el tuyo hoy!",
-      "title": "Descubre el nuevo catálogo de coches <br> de ocasión con las ventajas de siempre",
-      "text-1": "<b>Perfectamente mantenidos </b> y revisados",
-      "text-2": "<b>Cambio de nombre incluido </b> para facilitar todos  los <br> trámites administrativos",
-      "text-3": "<b>Financia hasta el 100% </b> del precio del coche"
+      "head": "Cotxes d’ocasió. Troba el que vols avui!",
+      "title": "Descobreix el nou catàleg de cotxes <br> d’ocasió amb els avantatges de sempre.",
+      "title-m": "Descobreix el nou catàleg <br> de cotxes d’ocasió amb els <br>avantatges de sempre.",
+      "text-1": "<b>Perfectament mantinguts </b> i revisats.",
+      "text-2": "<b>Canvi de nom inclòs,</b> per facilitar tots els <br>tràmits administratius.",
+      "text-3": "<b>Finança fins al 100 % </b> del preu del cotxe."
     },
     "motos": {
-      "head": "Motos de ocasión ¡Y comienza tu próxima aventura sobre ruedas!",
-      "title": "Más beneficios para ti al adquirir una <br> moto  de ocasión",
-      "text-1": "<b>Perfectamente mantenida </b> y revisada",
-      "text-2": "<b>Entrega a domicilio </b> en Península y Baleares",
-      "text-3": "<b>Cambio de nombre incluido </b> para facilitar todos los <br> trámites administrativos",
-      "brands": "Nuestras marcas más top de motos"
+      "head": "Motos d’ocasió. I comença la pròxima aventura sobre rodes!",
+      "title": "Més beneficis per a tu en adquirir una <br> moto d’ocasió",
+      "title-m": "Més beneficis per a tu en adquirir  <br> una moto d’ocasió",
+      "text-1": "<b>Perfectament mantinguda </b> i revisada.",
+      "text-2": "<b>Lliurament a domicili </b> a la Península i les Balears.",
+      "text-3": "<b>Canvi de nom inclòs, </b> per facilitar tots els <br> tràmits administratius.",
+      "brands": "Les nostres marques més top de motos"
     },
     "legal": {
-      "text-1": "1.La oferta de venta es de Arval Service Lease, S.A.U., con domicilio en la calle Anabel Segura 14, Edificio Cedro. 28108 Alcobendas – Madrid",
-      "text-2": "2.La oferta de venta es de los vendedores a los que Motor Flash Ibérica de Negocios S.L. permite celebrar contratos a través de su sitio web www.motorflash.com <br>CONDICIONES DE FINANCIACIÓN. Financiación mediante un préstamo ofrecida por CaixaBank, S.A.. La concesión está sujeta al análisis de la solvencia del cliente según la política de CaixaBank, S.A."
+      "text-1": "1.L’oferta de venda és d’Arval Service Lease, SAU, amb domicili al carrer d’Anabel Segura, 14, edifici Cedro.28108 Alcobendas - Madrid.",
+      "text-2": "2.L’oferta de venda és dels venedors als quals Motor Flash Ibérica de Negocios, SL permet formalitzar contractes mitjançant el seu lloc web www.motorflash.com. CONDICIONS DEL FINANÇAMENT. Finançament mitjançant un préstec, ofert per CaixaBank, SA. La concessió està subjecta a l’anàlisi de la solvència del client segons la política de CaixaBank, SA."
     }
   },
   "en": {
     "banner": {
-      "title": "Reserva, financia y reestrena",
-      "text-1": "MG ZS 1.0 Turbo Luxury 82 Kw (11 CV)¹ Automático",
-      "text-2": "desde",
-      "text-3": "275,85 €/mes²",
-      "text-4": "En 96 cuotas TAE 9,93 % TIN 9,5 %"
+      "title": "Book it, finance it and <br> show it off",
+      "title-m": "Book it, finance it and  show it off",
+      "text-1": "MG ZS 1.0 Turbo Luxury 82 kW (11 HP) 1 automatic",
+      "text-2": "from",
+      "text-3": "€275.85 a month²",
+      "text-4": "In 96 instalments <u>APR 9.93% </u> NIR 9.5%",
+      "text-button": "I WANT IT!"
     },
     "vehicles": {
-      "title": "Encuentra tu vehículo ideal, a tu medida:",
+      "title": "Find your ideal vehicle:",
       "renting": {
-        "title": "CaixaRenting Ocasión¹",
-        "text": "Excelente selección procedente <br>del Renting CaixaBank.",
-        "text-button": "Mostrar Coches"
+        "title": "CaixaRenting used¹",
+        "text": "Excellent selection from<br>CaixaBank renting.",
+        "text-button": "SHOW CARS"
       },
       "coche": {
-        "title": "Coche de Ocasión²",
-        "text": "Coches perfectamente <br>  revisados y listos para <br>reestrenar.",
-        "text-button": "Mostrar Coches"
+        "title": "Used car²",
+        "text": "Cars fully  checked and <br>ready to go.",
+        "text-m": "Cars fully checked <br> and ready to go.",
+        "text-button": "SHOW CARS"
       },
       "motos": {
-        "title": "Motos de Ocasión²",
-        "text": "Explora nuestras motos revisadas. Encuentra la ideal para <br>nuevas aventuras. ¡Descubre con nosotros!",
-        "text-button": "Mostrar Motos"
+        "title": "Used motorcycles²",
+        "text": "Explore our checked motorcycles. Find just the right one for  <br>new adventures. Find out about them with us!",
+        "text-m": "Explore our checked <br> motorcycles.Find just the <br> right one for  new adventures. <br> Find out about them with us!",
+        "text-button": "SHOW MOTORCYCLES"
       }
     },
     "benefits": {
-      "title": "Descubre las incomparables ventajas <br> de los vehículos de ocasión",
-      "title-1": "Financia en cómodos plazos",
-      "subtitle-1": "Reserva, reestrena y regálate libertad",
-      "title-2": "Garantía de 12 meses",
-      "subtitle-2": "Mecánica y electrónica, cobertura nacional",
-      "title-3": "Entrega rápida a domicilio",
-      "subtitle-3": "en península y Baleares"
+      "title": "Discover the unbeatable advantages <br> of used vehicles",
+      "title-m": "Discover the  unbeatable  <br> advantages of used <br> vehicles",
+      "title-1": "Finance in instalments",
+      "subtitle-1": "Book it, show it off and give yourself freedom!",
+      "title-2": "12-month warranty",
+      "subtitle-2": "Mechanical and electronic, with national coverage",
+      "title-3": "Fast home delivery",
+      "subtitle-3": "In mainland Spain &amp; Balearic Islands"
     },
     "renting": {
-      "head": "Coches CaixaRenting Ocasión. ¡No dejes que se escape!",
-      "title": "Descubre coches de calidad <br>procedentes del Renting CaixaBank",
-      "text-1": "<b>Busca y encuentra tu vehículo de ensueño</b> entre<br> nuestro amplio catálogo.",
-      "text-2": "<b>Coches seleccionados de un solo propietario.</b> <br>¡Ese vehículo será tuyo!",
-      "text-3": "<b>Con nuestra financiación al 100%, </b> disfruta de la <br>conveniencia de pagar en cómodas cuotas.",
-      "brands": "Nuestras marcas más top de coches"
+      "head": "CaixaRenting used cars. Don't miss them!",
+      "title": "Discover quality cars <br>from CaixaBank renting",
+      "title-m": "Discover quality  cars from <br>CaixaBank renting",
+      "text-1": "<b>Seek and find your dream vehicle</b> from <br> our extensive catalogue.",
+      "text-2": "<b>Selected cars with only one previous owner.</b> <br>This vehicle could be yours!",
+      "text-3": "<b>With our 100% finance, </b> benefit from <br>the convenience of paying in convenient instalments.",
+      "brands": "Our top makes of car"
     },
     "ocasion": {
-      "head": "Coches de ocasión ¡Encuentra el tuyo hoy!",
-      "title": "Descubre el nuevo catálogo de coches <br> de ocasión con las ventajas de siempre",
-      "text-1": "<b>Perfectamente mantenidos </b> y revisados",
-      "text-2": "<b>Cambio de nombre incluido </b> para facilitar todos  los <br> trámites administrativos",
-      "text-3": "<b>Financia hasta el 100% </b> del precio del coche"
+      "head": "Used cars. Find yours today!",
+      "title": "Discover our new catalogue <br> of used cars with all our usual advantages",
+      "title-m": "Discover our new catalogue <br> of used cars with all <br>our usual advantages",
+      "text-1": "<b>Fully maintained </b> and checked.",
+      "text-2": "<b>Change of name included </b> to make all the  <br>paperwork easy.",
+      "text-3": "<b>Finance up to 100% </b> of the price of the car."
     },
     "motos": {
-      "head": "Motos de ocasión ¡Y comienza tu próxima aventura sobre ruedas!",
-      "title": "Más beneficios para ti al adquirir una <br> moto  de ocasión",
-      "text-1": "<b>Perfectamente mantenida </b> y revisada",
-      "text-2": "<b>Entrega a domicilio </b> en Península y Baleares",
-      "text-3": "<b>Cambio de nombre incluido </b> para facilitar todos los <br> trámites administrativos",
-      "brands": "Nuestras marcas más top de motos"
+      "head": "Used motorcycles. And start your next adventure on wheels!",
+      "title": "More benefits for you when you <br> buy a used motorcycle",
+      "title-m": "More benefits for you when you <br> buy a used motorcycle",
+      "text-1": "<b>Fully maintained</b> and checked.",
+      "text-2": "<b>Home delivery </b> on the Iberian Peninsula and Balearics.",
+      "text-3": "<b>Change of name included</b> to make all <br>the paperwork easy.",
+      "brands": "Our top makes of motorcycle"
     },
     "legal": {
-      "text-1": "1.La oferta de venta es de Arval Service Lease, S.A.U., con domicilio en la calle Anabel Segura 14, Edificio Cedro. 28108 Alcobendas – Madrid",
-      "text-2": "2.La oferta de venta es de los vendedores a los que Motor Flash Ibérica de Negocios S.L. permite celebrar contratos a través de su sitio web www.motorflash.com <br>CONDICIONES DE FINANCIACIÓN. Financiación mediante un préstamo ofrecida por CaixaBank, S.A.. La concesión está sujeta al análisis de la solvencia del cliente según la política de CaixaBank, S.A."
+      "text-1": "1.Offer of sale by Arval Service Lease, S.A.U., domiciled at calle de Anabel Segura, 14, Edificio Cedro. 28108 Alcobendas - Madrid.",
+      "text-2": "2.Offer of sale is by sellers who Motor Flash Ibérica de Negocios, S.L. allow to sign contracts via its website www.motorflash.com. <br>FINANCIAL CONDITIONS. Finance through a loan offered by CaixaBank, S.A. Grant of loansubject to assessment of the applicant&#39;s solvency in accordance with CaixaBank, S.A. policy."
     }
   }
 }

@@ -5,7 +5,8 @@
     </div>
     <div class="banner">
         <div class="left-oc">
-            <img src="<?= img("ocasion-m.png") ?>" alt>
+            <img src="<?= img("ocasion.png") ?>" >
+            <img src="<?= img("ocasion-m.png") ?>" >
 
         </div>
         <div class="right-oc">
@@ -14,6 +15,7 @@
 
 
                 <h2 class="title"><?= $data['title'] ?></h2>
+                <h2 class="title"><?= $data['title-m'] ?></h2>
             </div>
             <div class="line">
                 <img class="ic" src="<?= img("_icono.svg") ?>" alt>
@@ -34,7 +36,7 @@
             </div>
             <div>
 
-                <?php comp('cta') ?>
+                <?php comp('cta-o') ?>
             </div>
 
         </div>

@@ -1,4 +1,4 @@
-main a.c-cta {
+#maincontent main a.c-cta {
   background-color: #133599;
   border-radius: 8px;
   color: white;
@@ -10,17 +10,15 @@ main a.c-cta {
   transition: background-color 0.3s ease;
   text-transform: uppercase;
 }
-main a.c-cta:hover {
+#maincontent main a.c-cta:hover {
   background-color: #f2f2f3;
 }
-
-@media (max-width: 524px) {
-  main a.c-cta {
+@media (max-width: 1024px) {
+  #maincontent main a.c-cta {
     font-size: 8px;
     padding: 7px 25px;
-    width: 136px;
+    /* width: 136px; */
     height: 31px;
     position: relative;
-   
   }
 }

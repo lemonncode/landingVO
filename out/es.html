@@ -1,4 +1,4 @@
-<style id='landing1_test-css-head' type='text/css'>
+<style id='landVO-css-head' type='text/css'>
 /* Reveal */
 [data-state]:not([data-reveal$="<>"]),
 [data-reveal$="<>"] > [data-state] {
@@ -125,6 +125,170 @@ main .boxed-full {
   main .boxed-full {
     padding: 16px;
   }
+}#maincontent .slider {
+  margin-top: 200px;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  background-color: F4F4F4;
+  border-radius: 10px;
+  position: relative;
+  height: 396px;
+  position: relative;
+}
+#maincontent .b-back {
+  border-radius: 10px;
+}
+#maincontent .side {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 45px 50px 45px 75px;
+  white-space: nowrap;
+  color: white;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+}
+#maincontent .side > h2:first-of-type {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+#maincontent .side > h2:last-of-type {
+  display: none;
+}
+#maincontent .side > .info-text {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+#maincontent .side > div > p {
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+#maincontent .side > div > p:last-of-type {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-top: 5px;
+}
+#maincontent .side > div > p > span {
+  margin: 10px 10px;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+#maincontent .blue {
+  height: 396px;
+}
+#maincontent .gray {
+  position: absolute;
+  right: 0px;
+}
+#maincontent li {
+  display: flex;
+  align-items: center;
+}
+#maincontent li > ul {
+  padding: 0px 20px;
+}
+@media (max-width: 1024px) {
+  #maincontent .slider {
+    flex-direction: column;
+    height: 240px;
+    border-radius: 0px;
+    margin-top: 0px;
+    background-color: #133599;
+  }
+  #maincontent .blue {
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #maincontent .b-back {
+    display: none;
+  }
+  #maincontent .gray {
+    bottom: -160px;
+    right: -50px;
+    width: 140%;
+  }
+  #maincontent .side {
+    align-items: center;
+    gap: 7px;
+    white-space: nowrap;
+    margin: 2.8% 2.5%;
+  }
+  #maincontent .side > h2:first-of-type {
+    display: none;
+  }
+  #maincontent .side > h2:last-of-type {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  #maincontent .side > div > p {
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 300;
+    margin-bottom: 5px;
+  }
+  #maincontent .side > div > p:last-of-type {
+    font-size: 0.83em;
+    font-weight: 600;
+    margin-top: 5px;
+  }
+  #maincontent .side > div > p > span {
+    margin: 5px 5px;
+    font-size: 1.4em;
+    font-weight: 700;
+  }
+}#maincontent .b-cta {
+  background-color: #1af5b1;
+  border-radius: 8px;
+  color: #133599;
+  padding: 10px 28px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 2;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+}
+#maincontent .b-cta:hover {
+  background-color: #f2f2f3;
+}
+@media (max-width: 1024px) {
+  #maincontent .b-cta {
+    font-size: 8px;
+    padding: 7px 25px;
+    /* width: 136px; */
+    height: 31px;
+    position: relative;
+  }
+}#maincontent main a.c-cta {
+  background-color: #133599;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 28px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 2;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+}
+#maincontent main a.c-cta:hover {
+  background-color: #f2f2f3;
+}
+@media (max-width: 1024px) {
+  #maincontent main a.c-cta {
+    font-size: 8px;
+    padding: 7px 25px;
+    /* width: 136px; */
+    height: 31px;
+    position: relative;
+  }
 }main a.c-cta {
   background-color: #133599;
   border-radius: 8px;
@@ -145,92 +309,108 @@ main a.c-cta:hover {
   main a.c-cta {
     font-size: 8px;
     padding: 7px 25px;
-    width: 136px;
+    /* width: 136px; */
     height: 31px;
     position: relative;
    
   }
 }
-.container {
+main a.c-cta {
+  background-color: #133599;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 28px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 2;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+}
+main a.c-cta:hover {
+  background-color: #f2f2f3;
+}
+
+@media (max-width: 524px) {
+  main a.c-cta {
+    font-size: 8px;
+    padding: 7px 25px;
+    /* width: 136px; */
+    height: 31px;
+    position: relative;
+   
+  }
+}
+#maincontent .container {
   display: flex;
   justify-content: space-between;
-  padding-left: 35px;
-  padding-right: 35px;
+  padding: 2px 30px;
 }
-
-.card {
+#maincontent .cardd {
   display: flex;
   flex-direction: column;
-
   align-items: center;
+  background-color: none;
+  border: 0px;
 }
-.card > div:first-of-type {
+#maincontent .cardd > div:first-of-type {
   height: 144px;
   display: flex;
   align-items: center;
   margin-bottom: 40px;
 }
-
-.card > div:last-of-type {
+#maincontent .cardd > div:last-of-type {
   text-align: center;
 }
-
-.title {
+#maincontent .c-title {
   font-size: 1.5rem;
   font-weight: 600;
+  text-align: center;
 }
-
-.subtitle {
+#maincontent .subtitle {
   font-size: 1.2rem;
   font-weight: 300;
 }
-
-@media (max-width: 524px) {
-  #benefits > .container > div:nth-of-type(2) > .container {
+@media (max-width: 1024px) {
+  #maincontent #benefits > .container > div:nth-of-type(2) > .container {
     flex-direction: column;
     justify-content: center;
-    row-gap: 50px;
+    row-gap: 30px;
   }
-  .card {
+  #maincontent .cardd {
     row-gap: 10px;
   }
-
-  .card > div:first-of-type {
+  #maincontent .cardd > div:first-of-type {
     height: 97.12px;
     display: flex;
     align-items: center;
     margin-bottom: 5%;
-   
   }
-  .card > div:first-of-type > img {
+  #maincontent .cardd > div:first-of-type > img {
     width: 92px;
   }
-
-  .title {
+  #maincontent .c-title {
     font-size: 1.2rem;
     font-weight: 600;
   }
-
-  .subtitle {
+  #maincontent .subtitle {
     font-size: 1rem;
     font-weight: 300;
   }
-}
-.cont {
+}#maincontent .cont {
   display: flex;
   flex-direction: column;
   margin-top: 5%;
   align-items: center;
 }
-.cont > div:first-of-type {
+#maincontent .cont > div:first-of-type {
   align-self: center;
 }
-.cont > div:first-of-type > h2 {
+#maincontent .cont > div:first-of-type > h2 {
   font-size: 2.2rem;
   font-weight: 650;
 }
-
-.banner {
+#maincontent .banner {
   height: 445px;
   width: 1312px;
   display: flex;
@@ -238,47 +418,53 @@ main a.c-cta:hover {
   background-color: #f7f8fa;
   position: relative;
   border-radius: 10px;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
 }
-.left {
+#maincontent .left {
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
-  margin-left: 5%;
-  margin-top: 5%;
+  margin: 55px;
 }
-
-.right {
-  background-image: url(./src/img/renting.png);
+#maincontent .right {
+  background-image: gray;
   background-repeat: no-repeat;
   height: 445px;
   width: 646px;
   position: absolute;
   right: 0px;
 }
-.right > img {
+#maincontent .right > img:first-of-type {
+  display: block;
+  min-width: 100%;
+}
+#maincontent .right > img:last-of-type {
   display: none;
 }
-
-.line {
+#maincontent .line {
   display: flex;
   flex-direction: row;
   gap: 0.5em;
 }
-
-.title-c {
+#maincontent .title:first-of-type {
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+#maincontent .title:last-of-type {
+  display: none;
+}
+#maincontent .title-c {
   font-size: 1.5rem;
   font-weight: 700;
 }
-.line > img {
+#maincontent .line > img {
   align-self: flex-start;
 }
-
-.line > p {
+#maincontent .line > p {
   font-size: 1.1rem;
 }
-
 @keyframes slide {
   from {
     transform: translateX(0);
@@ -287,206 +473,217 @@ main a.c-cta:hover {
     transform: translateX(-100%);
   }
 }
-
-.logos {
+#maincontent .logos {
   overflow: hidden;
   padding: 30px 0;
-
   white-space: nowrap;
   position: relative;
   display: flex;
   gap: 10px;
 }
-.logos:before,
-.logos:after {
+#maincontent .logos:before,
+#maincontent .logos:after {
   position: absolute;
   top: 0;
   width: 120px;
   height: 100%;
-
   content: "";
   z-index: 2;
 }
-.logos:before {
+#maincontent .logos:before {
   left: 0;
-  background: linear-gradient(
-    to left,
-    rgba(255, 255, 255, 0),
-    rgb(255, 255, 255)
-  );
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(255, 255, 255));
 }
-.logos:after {
+#maincontent .logos:after {
   right: 0;
-  background: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 0),
-    rgb(255, 255, 255)
-  );
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255));
 }
-
-.logos-slide {
+#maincontent .logos-slide {
   display: flex;
   gap: 10px;
   width: 300%;
-
   animation: 35s slide infinite linear;
 }
-.card-logo {
+#maincontent .card-logo {
   height: 153px;
   width: 191px;
   background-color: #f7f8fa;
   border-radius: 10px;
+  display: flex;
+  padding: 20px;
 }
-
-.logos-slide img {
-  height: 94px;
-  width: 94px;
-  margin: auto;
-  margin-top: 30px;
+#maincontent .logos-slide img {
+  margin: 1.5em auto;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
-
-@media (max-width: 524px) {
-  .cont {
+@media (max-width: 1024px) {
+  #maincontent .cont {
     margin-top: 0px;
   }
-  .cont > div:first-of-type > h2 {
-    padding: 15% 15% 5%;
-    font-size: 1rem;
+  #maincontent .cont > div:first-of-type > h2 {
+    padding: 15% 5% 5%;
+    font-size: 1.22rem;
     text-align: center;
   }
-  .banner {
+  #maincontent .banner {
     flex-direction: column;
-    height: 690px;
+    height: 750px;
     width: 352px;
     align-items: center;
     justify-content: flex-end;
-
     position: relative;
     margin: auto;
     padding: 20% 6% 30px 6%;
   }
-  .left {
+  #maincontent .left {
     align-items: center;
     justify-content: center;
-    margin-top: 0%;
+    margin-top: 10px;
     margin-left: 0%;
-    padding-bottom: 10%;
   }
-  .right {
+  #maincontent .right {
     align-self: flex-start;
     border-radius: 8px 8px 0px 0px;
-    background-color: green;
     width: 352px;
     height: 163px;
     top: 0px;
-
     background-image: none;
   }
-  .right > img {
+  #maincontent .right > img:last-of-type {
     display: block;
     min-width: 100%;
   }
-  .line > .title {
-    text-align: center;
-    font-size: 1rem;
-    font-weight: 600;
-    padding: 5% 10% ;
+  #maincontent .right > img:first-of-type {
+    display: none;
   }
-  .title-c {
+  #maincontent .line > .title:first-of-type {
+    display: none;
+  }
+  #maincontent .line > .title:last-of-type {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 5% 0px;
+    display: block;
+  }
+  #maincontent .title-c {
     text-align: center;
     font-size: 1.2rem;
     font-weight: 600;
-    padding: 5% 25%;
+    padding: 5% 18%;
   }
-
-  .line > p {
+  #maincontent .line > p {
     font-size: 1.1rem;
     font-weight: 400;
   }
-  .card-logo {
+  #maincontent .card-logo {
     height: 98px;
     width: 122.42;
     display: flex;
   }
-  .logos-slide img {
-    height: 40px;
-    width: 40px;
+  #maincontent .logos {
+    padding: 0px 0;
+  }
+  #maincontent .logos-slide img {
+    height: 45px;
     margin: auto;
   }
-}
-.left-oc {
-  background-image: url(./src/img/ocasion.png);
+  #maincontent .logos:before,
+  #maincontent .logos:after {
+    position: absolute;
+    top: 0;
+    width: 60px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+}#maincontent .left-oc {
+  background: gray;
   background-repeat: no-repeat;
   height: 445px;
   width: 646px;
   position: absolute;
   left: 0px;
   top: 0px;
+  border-radius: 10px;
 }
-
-.left-oc > img {
+#maincontent .left-oc > img:first-of-type {
+  display: block;
+  min-width: 100%;
+  border-radius: 10px;
+}
+#maincontent .left-oc > img:last-of-type {
   display: none;
 }
-.right-oc {
+#maincontent .right-oc {
+  position: absolute;
+  left: 50%;
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
-  margin-left: 55%;
-  margin-top: 5%;
+  margin: 55px;
 }
-
-@media (max-width: 524px) {
-  .right-oc {
+@media (max-width: 1024px) {
+  #maincontent #ocasion > div > .cont > div:first-of-type > h2 {
+    padding: 8% 10%;
+  }
+  #maincontent #ocasion > div > .cont > .banner,
+  #maincontent #motos > div > .cont > .banner {
+    height: 750px;
+  }
+  #maincontent .right-oc {
     align-items: center;
     justify-content: center;
     margin-top: 0%;
     margin-left: 0%;
-    padding-bottom: 10%;
   }
-  .left-oc {
+  #maincontent .left-oc {
     align-self: flex-start;
     border-radius: 8px 8px 0px 0px;
-    background-color: green;
     width: 352px;
     height: 163px;
     top: 0px;
-
     background-image: none;
   }
-  .left-oc > img {
+  #maincontent .left-oc > img:first-of-type {
+    display: none;
+  }
+  #maincontent .left-oc > img:last-of-type {
     display: block;
     min-width: 100%;
   }
-}
-.mo {
+}#maincontent .mo {
   background-color: #f7f8fa;
   padding-top: 5%;
 }
-
-.bm {
+#maincontent .bm {
   background-color: #ffffff;
 }
-.left-m {
+#maincontent .left-m {
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
-  margin-left: 5%;
-  margin-top: 5%;
+  margin: 45px;
 }
-
-.right-m {
-  background-image: url(./src/img/motos.png);
+#maincontent .right-m {
+  background-image: gray;
   background-repeat: no-repeat;
   height: 445px;
   width: 646px;
   position: absolute;
   right: 0px;
 }
-
-.w {
+#maincontent .right-m > img:first-of-type {
+  display: block;
+  min-width: 100%;
+}
+#maincontent .right-m > img:last-of-type {
+  display: none;
+}
+#maincontent .w {
   background-color: #ffffff;
 }
-
 @keyframes slide {
   from {
     transform: translateX(0);
@@ -495,52 +692,61 @@ main a.c-cta:hover {
     transform: translateX(-100%);
   }
 }
-
-.m {
+#maincontent .m {
   background-color: #f7f8fa;
   padding-bottom: 3%;
 }
-
-.m:before {
+#maincontent .m:before {
   left: 0;
-
   background: linear-gradient(to left, rgba(255, 255, 255, 0), #f7f8fa);
 }
-.m:after {
+#maincontent .m:after {
   right: 0;
   background: linear-gradient(to right, rgba(255, 255, 255, 0), #f7f8fa);
 }
-
-.w {
+#maincontent .w {
   background-color: #ffffff;
 }
-
-@media (max-width: 524px) {
-  .left-m {
+@media (max-width: 1024px) {
+  #maincontent .left-m {
     align-items: center;
     justify-content: center;
     margin-top: 0%;
     margin-left: 0%;
-    padding-bottom: 10%;
   }
-  .right-m {
+  #maincontent .right-m {
     align-self: flex-start;
     border-radius: 8px 8px 0px 0px;
-    background-color: green;
     width: 352px;
     height: 163px;
     top: 0px;
-
     background-image: none;
   }
-  .right-m > img {
+  #maincontent .right-m > img:first-of-type {
+    display: none;
+  }
+  #maincontent .right-m > img:last-of-type {
     display: block;
     min-width: 100%;
   }
+  #maincontent #motos {
+    margin-top: 40px;
+  }
+  #maincontent #motos > div > .cont > div:first-of-type > h2 {
+    padding: 8% 10%;
+  }
+  #maincontent .w {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  #maincontent .logos-slide img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    margin: auto;
+  }
 }
-
 </style>
-<script id='landing1_test-js-head' type='text/javascript'>
+<script id='landVO-js-head' type='text/javascript'>
 /*!
  * GSAP 3.12.0
  * https://greensock.com
@@ -565,16 +771,47 @@ main a.c-cta:hover {
 
 
 </script>
-<section id="hero">
-    <class id="header_content">
+<section id="slider" class="L" data-reveal="L2R" data-state="off">
+    <div class=slider>
 
-        <div class="slider">
-            SLIDER
+    <div class=blue>
+        <div>
+
+            <img class="b-back" src="landing/WIVAI/landVO/rect.png?$staticlink$">
         </div>
-    </class>
+        <div class="side">
+            
+            <h2> Reserva, financia <br>y reestrena</h2>
+            <h2> Reserva, financia y reestrena</h2>
+            <div class="info-text">
 
+                <p> MG ZS 1.0 Turbo Luxury 82 Kw (11 CV)¹ Automático</p>
+                <p> desde <span>275,85 €/mes² </span></p>
 
-</section>
+                <p> En 96 cuotas <u>TAE 9,93 % </u> TIN 9,5 %</p>
+            </div>
+            <div><a class="b-cta" href="$url(Account-Show)$">
+    LO QUIERO</a>
+ </div>
+        </div>
+    </div>
+    <div class="gray">
+        <img src="landing/WIVAI/landVO/blue-c.png?$staticlink$">
+    </div>
+</div>
+<!-- <div class="s-points">
+    <li>
+        <ul> <img class="ic" src="landing/WIVAI/landVO/s-left.svg?$staticlink$"></ul>
+        <ul> <img class="ic" src="landing/WIVAI/landVO/active.svg?$staticlink$"></ul>
+        <ul> <img class="ic" src="landing/WIVAI/landVO/no-active.svg?$staticlink$"></ul>
+        <ul> <img class="ic" src="landing/WIVAI/landVO/no-active.svg?$staticlink$"></ul>
+        <ul> <img class="ic" src="landing/WIVAI/landVO/s-right.svg?$staticlink$"></ul>
+        
+      
+    </li>
+
+</div> --> </section>
+
 
 
 
@@ -582,11 +819,11 @@ main a.c-cta:hover {
         <div>
 
 
-        <h2> Encuentra tu vehículo ideal, a tu medida:</h2>
+        <h2 data-reveal="R2L" data-state="off" data-delay="0.25"> Encuentra tu vehículo ideal, a tu medida:</h2>
 
     </div>
     <div class="container-grid">
-        <div>
+        <div data-reveal="card-up" data-state="off" data-delay="0.09">
                         <div class="info">
                 <div>
                     <h3>CaixaRenting Ocasión¹</h3>
@@ -597,17 +834,17 @@ main a.c-cta:hover {
                 </div>
                 <div>
 
-                    <a class="c-cta" href="$url(Account-Show)$">
+                    <a class="c-cta" href="https://www.caixarentingautocasion.com/?loce=sh-part-Veh%C3%ADculos%20de%20ocasi%C3%B3n-VehiculosOcasion--destacado-NA-CaixarentingOcasionSup1Sup-NA">
     Mostrar Coches</a>
                 </div>
 
             </div>
             <div class="pict">
 
-                <img class="img-car" src="landing/WIVAI/landing1_test/coche-rent.png?$staticlink$" alt="coche-gris">
+                <img class="img-car" src="landing/WIVAI/landVO/coche-rent.png?$staticlink$" alt="coche-gris">
             </div>
         </div>
-        <div>
+        <div data-reveal="card-up" data-state="off" data-delay="0.16">
             <div class="info">
                 <div>
                     <h3>Coche de Ocasión²</h3>
@@ -615,20 +852,22 @@ main a.c-cta:hover {
                 <div>
                     <h4>
                         Coches perfectamente <br>  revisados y listos para <br>reestrenar.                    </h4>
+                    <h4>
+                        Coches perfectamente revisados <br> y listos para reestrenar.                    </h4>
                 </div>
                 <div class="cta">
 
-                    <a class="c-cta" href="$url(Account-Show)$">
+                    <a class="c-cta" href="https://www.cochesymotosocasion.com/?loce=sh-part-Veh%C3%ADculos%20de%20ocasi%C3%B3n-VehiculosOcasion--destacado-NA-CochesYMotosOcasionSup2Sup-NA">
     Mostrar Coches</a>
                 </div>
 
             </div>
             <div class="pict-b">
 
-                <img class="img-car" src="landing/WIVAI/landing1_test/coche-ocasion.png?$staticlink$" alt="coche-negro">
+                <img class="img-car" src="landing/WIVAI/landVO/coche-ocasion.png?$staticlink$" alt="coche-negro">
             </div>
         </div>
-        <div>
+        <div data-reveal="card-up" data-state="off" data-delay="0.2">
             <div class="info">
                 <div>
                     <h3>Motos de Ocasión²</h3>
@@ -636,22 +875,26 @@ main a.c-cta:hover {
                 <div>
                     <h4>
                         Explora nuestras motos revisadas. Encuentra la ideal para <br>nuevas aventuras. ¡Descubre con nosotros!                    </h4>
+
+                    <h4>
+                        Explora nuestras motos <br> revisadas. Encuentra la ideal <br>para nuevas aventuras. <br>¡Descubre con nosotros!                    </h4>
+
                 </div>
                 <div>
 
-                    <a class="c-cta" href="$url(Account-Show)$">
-    Mostrar Coches</a>
+                    <a class="c-cta" href="https://www.cochesymotosocasion.com/motos-ocasion/">
+    Mostrar Motos</a>
                 </div>
 
             </div>
             <div class="pict-1">
 
-                <img class="img-car" src="landing/WIVAI/landing1_test/moto-1.png?$staticlink$" alt>
+                <img class="img-car" src="landing/WIVAI/landVO/moto-1.png?$staticlink$" alt>
 
             </div>
             <div class="pict-2">
 
-                <img class="img-car" src="landing/WIVAI/landing1_test/moto-2.png?$staticlink$" alt>
+                <img class="img-car" src="landing/WIVAI/landVO/moto-2.png?$staticlink$" alt>
 
             </div>
 
@@ -662,27 +905,28 @@ main a.c-cta:hover {
 </section>
 <section id="benefits">
     <div class="container">
-        <div>
+        <div data-reveal="D2U" data-state="off" data-delay="0.25">
 
             
 
             <h2 class="head-title">Descubre las incomparables ventajas <br> de los vehículos de ocasión</h2>
+            <h2 class="head-title">Descubre las incomparables <br> ventajas de los vehículos <br> de ocasión</h2>
         </div>
 
 
         <div>
 
-             <div class="container">
-     <div class="card">
+             <div class="container" >
+     <div class="cardd" data-reveal="D2U" data-state="off" data-delay="0.45">
                   <div>
-             <img class="vector" src="landing/WIVAI/landing1_test/financia.svg?$staticlink$" alt>
+             <img class="vector" src="landing/WIVAI/landVO/financia.svg?$staticlink$" alt>
          </div>
 
 
          <div>
 
 
-             <h2 class="title">Financia en cómodos plazos</h2>
+             <h2 class="c-title">Financia en cómodos plazos</h2>
          </div>
          <div>
 
@@ -691,14 +935,14 @@ main a.c-cta:hover {
          </div>
 
      </div>
-     <div class="card">
+     <div class="cardd" data-reveal="D2U" data-state="off" data-delay="0.45">
          <div>
-             <img class="vector" src="landing/WIVAI/landing1_test/garantia.svg?$staticlink$" alt>
+             <img class="vector" src="landing/WIVAI/landVO/garantia.svg?$staticlink$" alt>
          </div>
          <div>
 
 
-             <h2 class="title">Garantía de 12 meses</h2>
+             <h2 class="c-title">Garantía de 12 meses</h2>
          </div>
          <div>
 
@@ -706,14 +950,14 @@ main a.c-cta:hover {
              <h4 class="subtitle">Mecánica y electrónica, cobertura nacional</h4>
          </div>
      </div>
-     <div class="card">
+     <div class="cardd" data-reveal="D2U" data-state="off" data-delay="0.45">
          <div>
-             <img class="vector" src="landing/WIVAI/landing1_test/entrega.svg?$staticlink$" alt>
+             <img class="vector" src="landing/WIVAI/landVO/entrega.svg?$staticlink$" alt>
          </div>
          <div>
 
 
-             <h2 class="title">Entrega rápida a domicilio</h2>
+             <h2 class="c-title">Entrega rápida a domicilio</h2>
          </div>
          <div>
 
@@ -727,151 +971,143 @@ main a.c-cta:hover {
 
     </div>
 </section>
-<section id="renting">
+<section id="renting" data-reveal="L2R" data-state="off" data-delay="0.5">
 
     <div>
 
         <div class="cont">
         <div>
-        <h2>Coches CaixaRenting Ocasión. ¡No dejes que se escape!</h2>
-
-        <div class="banner">
-            <div class="left">
-                <div class="line">
-
-
-                    <h2 class="title">Descubre coches de calidad <br>procedentes del Renting CaixaBank</h2>
-                </div>
-                <div class="line">
-                    <img class="ic" src="landing/WIVAI/landing1_test/_icono.svg?$staticlink$" alt>
-
-                    <p><b>Busca y encuentra tu vehículo de ensueño</b> entre<br> nuestro amplio catálogo.</p>
-                </div>
-                <div class="line">
-
-                    <img class="ic" src="landing/WIVAI/landing1_test/_icono.svg?$staticlink$" alt>
-
-                    <p><b>Coches seleccionados de un solo propietario.</b> <br>¡Ese vehículo será tuyo!</p>
-                </div>
-                <div class="line">
-
-                    <img class="ic" src="landing/WIVAI/landing1_test/_icono.svg?$staticlink$" alt>
-
-                    <p><b>Con nuestra financiación al 100%, </b> disfruta de la <br>conveniencia de pagar en cómodas cuotas.</p>
-                </div>
-                <div>
-
-                    <a class="c-cta" href="$url(Account-Show)$">
-    Mostrar Coches</a>
-                </div>
-
-            </div>
-            <div class="right">
-                <img  src="landing/WIVAI/landing1_test/renting-m.png?$staticlink$" alt>
-
-            </div>
-
-        </div>
-        <div>
-            <h2 class="title-c">Nuestras marcas más top de coches</h2>
-        </div>
+        <h2>Coches CaixaRenting Ocasión. ¡No dejes que se escape! </h2>
     </div>
 
+    <div class="banner">
+        <div class="left">
+            <div class="line">
+
+
+                <h2 class="title">Descubre coches de calidad <br>procedentes del Renting CaixaBank</h2>
+                <h2 class="title">Descubre coches de calidad <br>procedentes del Renting <br> CaixaBank</h2>
+            </div>
+            <div class="line">
+                <img class="ic" src="landing/WIVAI/landVO/_icono.svg?$staticlink$" alt>
+
+                <p><b>Busca y encuentra tu vehículo de ensueño</b> entre<br> nuestro amplio catálogo.</p>
+            </div>
+            <div class="line">
+
+                <img class="ic" src="landing/WIVAI/landVO/_icono.svg?$staticlink$" alt>
+
+                <p><b>Coches seleccionados de un solo propietario.</b> <br>¡Ese vehículo será tuyo!</p>
+            </div>
+            <div class="line">
+
+                <img class="ic" src="landing/WIVAI/landVO/_icono.svg?$staticlink$" alt>
+
+                <p><b>Con nuestra financiación al 100%, </b> disfruta de la <br>conveniencia de pagar en cómodas cuotas.</p>
+            </div>
+            <div>
+
+                <a class="c-cta" href="https://www.caixarentingautocasion.com/?loce=sh-part-Veh%C3%ADculos%20de%20ocasi%C3%B3n-VehiculosOcasion--destacado-NA-CaixarentingOcasionSup1Sup-NA">
+    Mostrar Coches</a>
+            </div>
+
+        </div>
+        <div class="right">
+            <img src="landing/WIVAI/landVO/renting.png?$staticlink$" alt>
+            <img src="landing/WIVAI/landVO/renting-m.png?$staticlink$" alt>
+
+        </div>
+
+    </div>
+    <div>
+        <h2 class="title-c">Nuestras marcas más top de coches</h2>
+    </div>
 </div>
+
+
 <div class="logos">
     <div class="logos-slide">
         <div class="card-logo">
 
-            <img src="./src/img/logos/2.png">
+            <img src="landing/WIVAI/landVO/1.png?$staticlink$">
+
         </div>
         <div class="card-logo">
 
-            <img src="./src/img/logos/2.png">
+            <img src="landing/WIVAI/landVO/2.png?$staticlink$">
         </div>
         <div class="card-logo">
 
-            <img src="./src/img/logos/2.png">
+            <img src="landing/WIVAI/landVO/3.png?$staticlink$">
         </div>
         <div class="card-logo">
 
-            <img src="./src/img/logos/2.png">
+            <img src="landing/WIVAI/landVO/4.png?$staticlink$">
         </div>
         <div class="card-logo">
 
-            <img src="./src/img/logos/2.png">
+            <img src="landing/WIVAI/landVO/5.png?$staticlink$">
         </div>
         <div class="card-logo">
 
-            <img src="./src/img/logos/2.png">
+            <img src="landing/WIVAI/landVO/6.png?$staticlink$">
         </div>
         <div class="card-logo">
 
-            <img src="./src/img/logos/2.png">
+            <img src="landing/WIVAI/landVO/7.png?$staticlink$">
         </div>
         <div class="card-logo">
 
-            <img src="./src/img/logos/2.png">
+            <img src="landing/WIVAI/landVO/8.png?$staticlink$">
         </div>
-        <div class="card-logo">
 
-            <img src="./src/img/logos/2.png">
-        </div>
-        <div class="card-logo">
-
-            <img src="./src/img/logos/2.png">
-        </div>
 
     </div>
     <div class="logos-slide">
         <div class="card-logo">
 
-            <img src="./src/img/logos/2.png">
+            <img src="landing/WIVAI/landVO/1.png?$staticlink$">
+
         </div>
         <div class="card-logo">
 
-            <img src="./src/img/logos/2.png">
+            <img src="landing/WIVAI/landVO/2.png?$staticlink$">
         </div>
         <div class="card-logo">
 
-            <img src="./src/img/logos/2.png">
+            <img src="landing/WIVAI/landVO/3.png?$staticlink$">
         </div>
         <div class="card-logo">
 
-            <img src="./src/img/logos/2.png">
+            <img src="landing/WIVAI/landVO/4.png?$staticlink$">
         </div>
         <div class="card-logo">
 
-            <img src="./src/img/logos/2.png">
+            <img src="landing/WIVAI/landVO/5.png?$staticlink$">
         </div>
         <div class="card-logo">
 
-            <img src="./src/img/logos/2.png">
+            <img src="landing/WIVAI/landVO/6.png?$staticlink$">
         </div>
         <div class="card-logo">
 
-            <img src="./src/img/logos/2.png">
+            <img src="landing/WIVAI/landVO/7.png?$staticlink$">
         </div>
         <div class="card-logo">
 
-            <img src="./src/img/logos/2.png">
+            <img src="landing/WIVAI/landVO/8.png?$staticlink$">
         </div>
-        <div class="card-logo">
 
-            <img src="./src/img/logos/2.png">
-        </div>
-        <div class="card-logo">
-
-            <img src="./src/img/logos/2.png">
-        </div>
 
     </div>
 </div>
 
 
     </div>
+    <div class="sep"></div>
 
 </section>
-<section id="ocasion">
+<section id="ocasion" data-reveal="R2L" data-state="off" data-delay="0.55">
     <div>
 
         <div class="cont">
@@ -880,7 +1116,8 @@ main a.c-cta:hover {
     </div>
     <div class="banner">
         <div class="left-oc">
-            <img src="landing/WIVAI/landing1_test/ocasion-m.png?$staticlink$" alt>
+            <img src="landing/WIVAI/landVO/ocasion.png?$staticlink$" >
+            <img src="landing/WIVAI/landVO/ocasion-m.png?$staticlink$" >
 
         </div>
         <div class="right-oc">
@@ -889,27 +1126,28 @@ main a.c-cta:hover {
 
 
                 <h2 class="title">Descubre el nuevo catálogo de coches <br> de ocasión con las ventajas de siempre</h2>
+                <h2 class="title">Descubre el nuevo catálogo <br> de coches de ocasión con las <br>ventajas de siempre</h2>
             </div>
             <div class="line">
-                <img class="ic" src="landing/WIVAI/landing1_test/_icono.svg?$staticlink$" alt>
+                <img class="ic" src="landing/WIVAI/landVO/_icono.svg?$staticlink$" alt>
 
                 <p><b>Perfectamente mantenidos </b> y revisados</p>
             </div>
             <div class="line">
 
-                <img class="ic" src="landing/WIVAI/landing1_test/_icono.svg?$staticlink$" alt>
+                <img class="ic" src="landing/WIVAI/landVO/_icono.svg?$staticlink$" alt>
 
                 <p><b>Cambio de nombre incluido </b> para facilitar todos  los <br> trámites administrativos</p>
             </div>
             <div class="line">
 
-                <img class="ic" src="landing/WIVAI/landing1_test/_icono.svg?$staticlink$" alt>
+                <img class="ic" src="landing/WIVAI/landVO/_icono.svg?$staticlink$" alt>
 
                 <p><b>Financia hasta el 100% </b> del precio del coche</p>
             </div>
             <div>
 
-                <a class="c-cta" href="$url(Account-Show)$">
+                <a class="c-cta" href="https://www.cochesymotosocasion.com/?loce=sh-part-Veh%C3%ADculos%20de%20ocasi%C3%B3n-VehiculosOcasion--destacado-NA-CochesYMotosOcasionSup2Sup-NA">
     Mostrar Coches</a>
             </div>
 
@@ -925,7 +1163,7 @@ main a.c-cta:hover {
     </div>
 
 </section>
-<section id="motos">
+<section id="motos" data-reveal="L2R" data-state="off" data-delay="0.6">
     <div>
 
         <div class="cont mo ">
@@ -938,28 +1176,35 @@ main a.c-cta:hover {
 
 
                 <h2 class="title">Más beneficios para ti al adquirir una <br> moto  de ocasión</h2>
+                <h2 class="title">Más beneficios para ti al adquirir  <br> una moto  de ocasión</h2>
             </div>
             <div class="line">
-                <img class="ic" src="landing/WIVAI/landing1_test/_icono.svg?$staticlink$" alt>
+                <img class="ic" src="landing/WIVAI/landVO/_icono.svg?$staticlink$" alt>
 
                 <p><b>Perfectamente mantenida </b> y revisada</p>
             </div>
             <div class="line">
 
-                <img class="ic" src="landing/WIVAI/landing1_test/_icono.svg?$staticlink$" alt>
+                <img class="ic" src="landing/WIVAI/landVO/_icono.svg?$staticlink$" alt>
 
                 <p><b>Entrega a domicilio </b> en Península y Baleares</p>
             </div>
             <div class="line">
 
-                <img class="ic" src="landing/WIVAI/landing1_test/_icono.svg?$staticlink$" alt>
+                <img class="ic" src="landing/WIVAI/landVO/_icono.svg?$staticlink$" alt>
 
                 <p><b>Cambio de nombre incluido </b> para facilitar todos los <br> trámites administrativos</p>
+            </div>
+            <div>
+
+                <a class="c-cta" href="https://www.cochesymotosocasion.com/motos-ocasion/">
+    Mostrar Motos</a>
             </div>
 
         </div>
         <div class="right-m">
-            <img src="landing/WIVAI/landing1_test/ocasion-m.png?$staticlink$" alt>
+            <img src="landing/WIVAI/landVO/motos.png?$staticlink$" alt>
+            <img src="landing/WIVAI/landVO/motos-m.png?$staticlink$" alt>
         </div>
 
     </div>
@@ -971,86 +1216,70 @@ main a.c-cta:hover {
     <div class="logos-slide">
         <div class="card-logo w">
 
-            <img src="./src/img/logos/2.png">
+            <img src="landing/WIVAI/landVO/m-1.png?$staticlink$">
         </div>
         <div class="card-logo w">
 
-            <img src="./src/img/logos/2.png">
+            <img src="landing/WIVAI/landVO/m-2.png?$staticlink$">
         </div>
         <div class="card-logo w">
 
-            <img src="./src/img/logos/2.png">
+            <img src="landing/WIVAI/landVO/m-3.png?$staticlink$">
         </div>
         <div class="card-logo w">
 
-            <img src="./src/img/logos/2.png">
+            <img src="landing/WIVAI/landVO/m-4.png?$staticlink$">
         </div>
         <div class="card-logo w">
 
-            <img src="./src/img/logos/2.png">
+            <img src="landing/WIVAI/landVO/m-5.png?$staticlink$">
         </div>
         <div class="card-logo w">
 
-            <img src="./src/img/logos/2.png">
+            <img src="landing/WIVAI/landVO/m-6.png?$staticlink$">
         </div>
         <div class="card-logo w">
 
-            <img src="./src/img/logos/2.png">
+            <img src="landing/WIVAI/landVO/m-7.png?$staticlink$">
         </div>
         <div class="card-logo w">
 
-            <img src="./src/img/logos/2.png">
-        </div>
-        <div class="card-logo w">
-
-            <img src="./src/img/logos/2.png">
-        </div>
-        <div class="card-logo w">
-
-            <img src="./src/img/logos/2.png">
+            <img src="landing/WIVAI/landVO/m-8.png?$staticlink$">
         </div>
 
     </div>
     <div class="logos-slide">
         <div class="card-logo w">
 
-            <img src="./src/img/logos/2.png">
+            <img src="landing/WIVAI/landVO/m-1.png?$staticlink$">
         </div>
         <div class="card-logo w">
 
-            <img src="./src/img/logos/2.png">
+            <img src="landing/WIVAI/landVO/m-2.png?$staticlink$">
         </div>
         <div class="card-logo w">
 
-            <img src="./src/img/logos/2.png">
+            <img src="landing/WIVAI/landVO/m-3.png?$staticlink$">
         </div>
         <div class="card-logo w">
 
-            <img src="./src/img/logos/2.png">
+            <img src="landing/WIVAI/landVO/m-4.png?$staticlink$">
         </div>
         <div class="card-logo w">
 
-            <img src="./src/img/logos/2.png">
+            <img src="landing/WIVAI/landVO/m-5.png?$staticlink$">
         </div>
         <div class="card-logo w">
 
-            <img src="./src/img/logos/2.png">
+            <img src="landing/WIVAI/landVO/m-6.png?$staticlink$">
         </div>
         <div class="card-logo w">
 
-            <img src="./src/img/logos/2.png">
+            <img src="landing/WIVAI/landVO/m-7.png?$staticlink$">
         </div>
         <div class="card-logo w">
 
-            <img src="./src/img/logos/2.png">
-        </div>
-        <div class="card-logo w">
-
-            <img src="./src/img/logos/2.png">
-        </div>
-        <div class="card-logo w">
-
-            <img src="./src/img/logos/2.png">
+            <img src="landing/WIVAI/landVO/m-8.png?$staticlink$">
         </div>
 
     </div>
@@ -1066,42 +1295,45 @@ main a.c-cta:hover {
         <p>2.La oferta de venta es de los vendedores a los que Motor Flash Ibérica de Negocios S.L. permite celebrar contratos a través de su sitio web www.motorflash.com <br>CONDICIONES DE FINANCIACIÓN. Financiación mediante un préstamo ofrecida por CaixaBank, S.A.. La concesión está sujeta al análisis de la solvencia del cliente según la política de CaixaBank, S.A.</p>
     </div>
 </section>
-<style id='landing1_test-css-foot' type='text/css'>
-/*slider*/
-main {
+<style id='landVO-css-foot' type='text/css'>
+@charset "UTF-8";
+#maincontent {
+  /*slider*/
+  /*section show vehicles*/
+  /*section benefits*/
+  /*legal*/
+  /* responsive 376  */
+}
+#maincontent main {
   overflow-x: hidden;
 }
-
-.slider {
-  background-color: #133599;
-  height: 396px;
-  width: 1312px;
-  margin: auto;
+#maincontent #slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  padding-top: 20px;
 }
-
-/*section show vehicles*/
-#show_vehicles > div:first-of-type {
-  margin-top: 100px;
+#maincontent #show_vehicles > div:first-of-type {
+  margin-top: 40px;
   height: 100px;
   display: flex;
 }
-
-#show_vehicles > div:first-of-type > h2 {
+#maincontent #show_vehicles > div:first-of-type > h2 {
   margin: auto;
   font-size: 2.15rem;
   font-weight: 700;
 }
-
-.container-grid {
+#maincontent .container-grid {
   display: grid;
   margin-top: 20px;
   row-gap: 80px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  column-gap: 16px;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
 }
-
-.container-grid > div {
+#maincontent .container-grid > div {
   background-color: #f0f1f4;
   height: 283px;
   width: 646px;
@@ -1110,178 +1342,198 @@ main {
   border-radius: 10px;
   position: relative;
 }
-
-.container-grid > div:first-of-type {
+#maincontent .container-grid > div:nth-of-type(2) > .info > div:nth-of-type(2) > h4:last-of-type {
+  display: none;
+}
+#maincontent .container-grid > div:nth-of-type(3) > .info > div:nth-of-type(2) > h4:last-of-type {
+  display: none;
+}
+#maincontent .container-grid > div:first-of-type {
   justify-self: end;
 }
-.container-grid > div::nth-of-type(2) {
+#maincontent .container-grid > div::nth-of-type(2) {
   justify-self: start;
 }
-
-.container-grid > div:last-of-type {
+#maincontent .container-grid > div:last-of-type {
   height: 260px;
   width: 1313px;
   grid-column: span 2;
   margin: auto;
 }
-
-.info {
+#maincontent .info {
   display: flex;
   flex-direction: column;
   gap: 24px;
   margin-top: 40px;
   margin-left: 40px;
 }
-
-.info > div > h3 {
+#maincontent .info > div > h3 {
   font-size: 1.9rem;
   font-weight: 600;
 }
-.info > div > h4 {
+#maincontent .info > div > h4 {
   font-size: 1.22rem;
 }
-.info > div:last-of-type {
+#maincontent .info > div:last-of-type {
   position: absolute;
   bottom: 30px;
 }
-
-.pict {
+#maincontent .pict {
   position: absolute;
   bottom: -60px;
   right: -30px;
 }
-.pict-b {
+#maincontent .pict-b {
   position: absolute;
   bottom: -60px;
   right: 20px;
 }
-
-.pict-1 {
+#maincontent .pict-1 {
   position: absolute;
   bottom: -60px;
   right: 350px;
 }
-.pict-2 {
+#maincontent .pict-2 {
   position: absolute;
   bottom: -60px;
   right: 20px;
 }
-
-/*section benefits*/
-
-#benefits > .container {
+#maincontent #benefits > .container {
   display: flex;
   flex-direction: column;
   height: 511px;
   margin-top: 100px;
-  /* background-color: #f4fffb; */
-  background-color: aquamarine;
+  background-color: #f4fffb;
   row-gap: 50px;
   padding-top: 70px;
   padding-bottom: 70px;
 }
-
-.head-title {
+#maincontent .head-title:first-of-type {
   font-size: 1.9rem;
   font-weight: 650;
   text-align: center;
 }
-/*legal*/
-
-.legal {
+#maincontent .head-title:last-of-type {
+  display: none;
+}
+#maincontent .legal {
   padding: 5%;
 }
-
-/* responsive 376  */
-
-@media (max-width: 524px) {
+@media (max-width: 1024px) {
   #maincontent {
+    /* "Descubre las incomparables ventajas <br> de los vehículos de ocasión" */
+  }
+  #maincontent #maincontent {
     display: flex;
     flex-direction: column;
   }
-  #show_vehicles > div:first-of-type {
+  #maincontent #slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding-top: 10px;
+    height: 400px;
+  }
+  #maincontent #show_vehicles > div:first-of-type {
     margin-top: 5%;
   }
-  #show_vehicles > div:first-of-type > h2 {
+  #maincontent #show_vehicles > div:first-of-type > h2 {
     margin: auto;
     font-size: 1.3rem;
     font-weight: 600;
     text-align: center;
     padding: 0px 60px;
   }
-
-  .container-grid {
+  #maincontent .container-grid {
     display: flex;
     flex-direction: column;
     align-items: center;
     row-gap: 40px;
+    margin-top: 1px;
   }
-  .container-grid > div {
+  #maincontent .container-grid > div {
     height: 154.29px;
     width: 352.19px;
   }
-
-  /* corregir  */
-  .container-grid > div:nth-of-type(2) > .info > div:nth-of-type(2) > h4 {
-    background-color: aquamarine;
+  #maincontent .container-grid > div:nth-of-type(2) > .info > div:nth-of-type(2) > h4:first-of-type,
+  #maincontent .container-grid > div:nth-of-type(3) > .info > div:nth-of-type(2) > h4:first-of-type {
+    display: none;
   }
-  .container-grid > div:last-of-type {
+  #maincontent .container-grid > div:nth-of-type(2) > .info > div:nth-of-type(2) > h4:last-of-type,
+  #maincontent .container-grid > div:nth-of-type(3) > .info > div:nth-of-type(2) > h4:last-of-type {
+    line-height: 1.3;
+    display: block;
+  }
+  #maincontent .container-grid > div:last-of-type {
     height: 176px;
     width: 352.19px;
   }
-
-  .pict,
-  .pict-b,
-  .pict-2 {
-    height: 92px;
-    width: 191px;
+  #maincontent .pict {
+    width: 200px;
+    bottom: -25px;
+    right: -10px;
+  }
+  #maincontent .pict-b {
+    width: 165px;
     bottom: -20px;
     right: 10px;
   }
-
-  .pict-2 {
-    bottom: 20px;
+  #maincontent .pict-2 {
+    width: 160px;
+    bottom: -20px;
+    right: 10px;
   }
-
-  .pict-1 {
+  #maincontent .pict-1 {
     display: none;
   }
-
-  .info {
+  #maincontent .info {
     display: flex;
     flex-direction: column;
     gap: 12px;
     margin-top: 5%;
     margin-left: 5%;
   }
-
-  .info > div > h3 {
-    font-size: 1rem;
+  #maincontent .info > div > h3 {
+    font-size: 1.03rem;
     font-weight: 600;
   }
-  .info > div > h4 {
+  #maincontent .info > div > h4 {
     font-size: 0.8rem;
   }
-
-  .info > div:last-of-type {
+  #maincontent .info > div:last-of-type {
     position: absolute;
     bottom: 12px;
   }
-
-  #benefits > .container {
+  #maincontent #benefits > .container {
     height: 785.36px;
     row-gap: 0px;
-    padding: 25px 10px;
+    padding: 10% 10px;
+    margin-top: 50px;
   }
-  /* "Descubre las incomparables ventajas <br> de los vehículos de ocasión" */
-  .head-title {
+  #maincontent .head-title:first-of-type {
+    display: none;
+  }
+  #maincontent .head-title:last-of-type {
+    display: block;
     font-size: 1.3rem;
     font-weight: 650;
+    text-align: center;
+  }
+  #maincontent .legal {
+    font-size: 0.5rem;
+    padding: 5%;
+  }
+  #maincontent .sep {
+    height: 2px;
+    width: 94%;
+    margin: auto;
+    margin-top: 5%;
+    background-color: #e9e9e9;
   }
 }
-
 </style>
-<script id='landing1_test-js-foot' type='text/javascript'>
+<script id='landVO-js-foot' type='text/javascript'>
 /* ——— Helper functions ——— */
 
 /**
